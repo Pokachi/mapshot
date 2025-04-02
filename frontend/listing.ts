@@ -77,14 +77,14 @@ class MapshotListing extends LitElement {
                 ${this.shots.all.map((save) => html`
                     <div class="savename">
                         <h2>${save.savename} <a href="map?l=${save.savename}">[permalink]</a></h2>
-                        <factorio-ticks .ticks=${save.versions[0].ticks_played}></factorio-ticks>
+                        <factorio-ticks .ticks=${save.versions[0].ticks}></factorio-ticks>
                         <p>
                         Available versions:
                         <ul>
                             ${save.versions.map((si) => html`
                                 <li>
-                                    <a href="map?path=${encodeURI(si.encoded_path)}"><factorio-relticks .ticks=${si.ticks_played} .refticks=${save.versions[0].ticks_played}></factorio-relticks></a>
-                                    (<factorio-ticks .ticks=${si.ticks_played}></factorio-ticks>)
+                                    <a href="map?path=${encodeURI(si.encoded_path)}"><factorio-relticks .ticks=${si.ticks} .refticks=${save.versions[0].ticks}></factorio-relticks></a>
+                                    (<factorio-ticks .ticks=${si.ticks}></factorio-ticks>)
                                 </li>`)}
                         </ul>
                     </div>
