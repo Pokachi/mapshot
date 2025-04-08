@@ -51,7 +51,7 @@ function factorio_fit_zoom(render_size, tile_size, name)
     local old = tile_size
     tile_size = render_size / 32 / factorio_min_zoom
     local msg = "Parameter " .. name .. " changed from " .. old .. " to " .. tile_size .. " to fit within Factorio minimal zoom of " .. factorio_min_zoom
-    game.print(msg)
+    --game.print(msg)
     log(msg)
   end
   return tile_size
@@ -71,7 +71,7 @@ function mapshot(params)
   -- data_dir needs to be URL friendly, as that allows to avoid having to do URL encoding on it.
   local data_dir = "d-" .. unique_id
   local data_prefix = prefix .. data_dir .. "/"
-  game.print("Mapshot '" .. prefix .. "' ...")
+  --game.print("Mapshot '" .. prefix .. "' ...")
   log("Mapshot target " .. prefix)
   log("Mapshot data target " .. data_prefix)
   log("Mapshot unique id " .. unique_id)
@@ -85,9 +85,13 @@ function mapshot(params)
       original_surface_show_clouds[surface] = surface.show_clouds
       surface.show_clouds = false
 
-      local si = gen_surface_info(params, surface)
+      local si = gen_surface_info(params, surface, false)
       if si then
         table.insert(surface_infos, si)
+      end
+      local si_night = gen_surface_info(params, surface, true)
+      if si_night then
+        table.insert(surface_infos, si_night)
       end
     end
   end
@@ -107,7 +111,7 @@ function mapshot(params)
     unique_id = unique_id,
     map_id = map_id,
     tick = game.tick,
-    ticks_played = game.ticks_played,
+    ticks_played = game.tick,
     seed = game.default_map_gen_settings.seed,
     map_exchange = game.get_map_exchange_string(),
     surfaces = surface_infos,
@@ -138,11 +142,12 @@ function mapshot(params)
     for render_zoom = surface_info.zoom_min, surface_info.zoom_max do
       local tile_size = surface_info.tile_size / math.pow(2, render_zoom)
       local layer_prefix = data_prefix .. surface_info.file_prefix .. render_zoom .. "/"
-      gen_layer(params, tile_size, surface_info.render_size, surface_info.world_min, surface_info.world_max, layer_prefix, game.surfaces[surface_info.surface_idx])
+	  local sidx = surface_info.surface_idx:gsub("_night", "")
+      gen_layer(params, tile_size, surface_info.render_size, surface_info.world_min, surface_info.world_max, layer_prefix, game.surfaces[tonumber(sidx)], surface_info.is_night)
     end
   end
 
-  game.print("Mapshot: all screenshots started, might take a while to render; location: " .. data_prefix)
+  --game.print("Mapshot: all screenshots started, might take a while to render; location: " .. data_prefix)
   log("Mapshot: all screenshots started, might take a while to render; location: " .. data_prefix)
 
   return data_prefix
@@ -171,7 +176,7 @@ function should_render_surface(params, surface_name)
   return false
 end
 
-function gen_surface_info(params, surface)
+function gen_surface_info(params, surface, is_night)
   -- Determine map min & max world coordinates based on existing chunks.
   -- When requested to match only entities, fallback using all chunks
   -- if no entities are found at all.
@@ -192,7 +197,7 @@ function gen_surface_info(params, surface)
       chunk_count = chunk_count + 1
 
       if try_ent_only then
-        in_ent = surface.count_entities_filtered({ area = chunk.area, limit = 1, type = entities.includes}) > 0
+        in_ent = surface.count_entities_filtered({ area = chunk.area, limit = 1, type = entities.includes, force = "player"}) > 0
         if in_ent then
           ent_world_min.x = math.min(ent_world_min.x, chunk.area.left_top.x)
           ent_world_min.y = math.min(ent_world_min.y, chunk.area.left_top.y)
@@ -210,10 +215,10 @@ function gen_surface_info(params, surface)
   end
   if chunk_count == 0 then
     log("no matching chunk")
-    game.print("No matching chunk")
+    --game.print("No matching chunk")
     return
   end
-  game.print("Map: (" .. world_min.x .. ", " .. world_min.y .. ")-(" .. world_max.x .. ", " .. world_max.y .. ")")
+  --game.print("Map: (" .. world_min.x .. ", " .. world_min.y .. ")-(" .. world_max.x .. ", " .. world_max.y .. ")")
   local area = {
     left_top = {world_min.x, world_min.y},
     right_bottom = {world_max.x, world_max.y},
@@ -263,9 +268,9 @@ function gen_surface_info(params, surface)
   end
 
   return {
-    surface_name = surface.name,
-    surface_idx = surface.index,
-    file_prefix = "s" .. surface.index .. "zoom_",
+    surface_name = surface.name .. (is_night and "_night" or ""),
+    surface_idx = surface.index .. (is_night and "_night" or ""),
+    file_prefix = "s" .. surface.index * 2 - (is_night and 0 or 1) .. "zoom_",
     tile_size = math.pow(2, tile_range_max),
     render_size = render_size,
     world_min = world_min,
@@ -275,22 +280,23 @@ function gen_surface_info(params, surface)
     players = players,
     stations = stations,
     tags = tags,
+	is_night = is_night,
   }
 end
 
-function gen_layer(params, tile_size, render_size, world_min, world_max, data_prefix, surface)
+function gen_layer(params, tile_size, render_size, world_min, world_max, data_prefix, surface, is_night)
   local tile_min = { x = math.floor(world_min.x / tile_size), y = math.floor(world_min.y / tile_size) }
   local tile_max = { x = math.floor(world_max.x / tile_size), y = math.floor(world_max.y / tile_size) }
 
   local msg =  "Tile size " .. tile_size .. ": " .. (tile_max.x - tile_min.x + 1) * (tile_max.y - tile_min.y + 1) .. " tiles to generate"
-  game.print(msg)
+  --game.print(msg)
   log(msg)
 
   for tile_y = tile_min.y, tile_max.y do
     for tile_x = tile_min.x, tile_max.x do
       local top_left = { x = tile_x * tile_size, y = tile_y * tile_size }
       local bottom_right = { x = top_left.x + tile_size, y = top_left.y + tile_size }
-      local has_entities = surface.count_entities_filtered({ area = {top_left, bottom_right}, limit = 1, type = entities.includes}) > 0
+      local has_entities = surface.count_entities_filtered({ area = {top_left, bottom_right}, limit = 1, type = entities.includes, force = "player"}) > 0
       local quality_to_use = has_entities and params.jpgquality or math.min(params.minjpgquality, params.jpgquality)
       if quality_to_use > 0 then
         game.take_screenshot{
@@ -305,7 +311,7 @@ function gen_layer(params, tile_size, render_size, world_min, world_max, data_pr
           show_gui = false,
           show_entity_info = true,
           quality = quality_to_use,
-          daytime = 0,
+          daytime = is_night and 0.5 or 0,
           water_tick = 0,
         }
       end
@@ -315,15 +321,15 @@ end
 
 -- Create a unique ID of the generated mapshot.
 function gen_unique_id()
-  local data = generated.version_hash .. " " .. tostring(game.tick) .. " " .. game.get_map_exchange_string()
+  return tostring(game.tick/151200)
   -- sha256 produces 64 digits. We're not looking for crypto secure hashing, and instead
   -- just a short unique string - so pick up a subset.
   -- It also needs to be URL friendly, as that allows to avoid having to do URL encoding on it.
-  local idx = 10
-  local len = 8
-  local h = string.sub(hash.hash256(data), idx, idx + len - 1)
-  log("Unique ID: " .. h)
-  return h
+  --local idx = 10
+  --local len = 8
+  --local h = string.sub(hash.hash256(data), idx, idx + len - 1)
+  --log("Unique ID: " .. h)
+  --return h
 end
 
 -- Create a unique ID for the game being played.
@@ -388,10 +394,8 @@ script.on_event(defines.events.on_tick, function(evt)
   end
 end)
 
--- Register the command.
--- It seems that on_init+on_load sometime don't trigger (neither of them) when
--- doing weird things with --mod-directory and list of active mods.
-commands.add_command("mapshot", "screenshot the whole map", function(evt)
+
+local function manual_shot(evt)
   local player = nil
   -- if this command is run from the server console, there will not be a player
   -- try to pick the first player instead
@@ -417,4 +421,32 @@ commands.add_command("mapshot", "screenshot the whole map", function(evt)
   -- and letting an extra tick go through is not enough it seems.
   -- See https://github.com/Palats/mapshot/issues/50
   restore_surface_show_clouds()
+end
+
+
+local function RegisterOnTickHandler()
+    -- Deregister former handler
+    if storage.frequency_m then
+        script.on_nth_tick(storage.frequency_m, nil)
+    end
+
+    local frequency = 151200
+
+    script.on_nth_tick(frequency, manual_shot)
+    storage.frequency_m = frequency
+end
+
+-- Register the command.
+-- It seems that on_init+on_load sometime don't trigger (neither of them) when
+-- doing weird things with --mod-directory and list of active mods.
+commands.add_command("mapshot", "screenshot the whole map", manual_shot)
+
+local function on_load() RegisterOnTickHandler() end
+local function on_init() RegisterOnTickHandler() end
+
+script.on_load(on_load)
+script.on_init(on_init)
+script.on_event(defines.events.on_singleplayer_init, function(e)
+	local player = game.get_player(1)
+	player.surface.daytime = 0.7
 end)
