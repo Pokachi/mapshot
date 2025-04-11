@@ -1,10 +1,12 @@
 import * as L from "leaflet";
 import "./boxzoom/leaflet-control-boxzoom-src.js";
 import "./zoomslider/L.Control.Zoomslider.js";
+import "./leaflet_select/leaflet.control.select.js";
 
 import boxzoom_svg from "./boxzoom/leaflet-control-boxzoom.svg";
 import "./boxzoom/leaflet-control-boxzoom.css";
 import "./zoomslider/L.Control.Zoomslider.css";
+import "./leaflet_select/leaflet.control.select.css";
 
 import * as common from "./common";
 
@@ -197,6 +199,23 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     L.Control.boxzoom({
         position: 'topleft',
     }).addTo(mymap);
+	
+	var days = []
+	for (let i = 0; i < 4; i++) {
+	   days.push({label: "Day " + i, value: "d-" + i})
+	}
+	var defaultValue = window.location.href.match(/d-\d+/)![0];
+	L.Control.select({
+		position: "topleft",
+		selectedDefault: defaultValue,
+		iconMain: "📅",
+		items: days,
+		onSelect: function (newDay:any) {
+			//console.log(newDay)
+			window.location.href = window.location.href.replace(/d-\d+/, newDay)
+		},
+		})
+		.addTo(mymap);
 
     // Set original view (position/zoom/layers).
     const queryParams = new URLSearchParams(window.location.search);
