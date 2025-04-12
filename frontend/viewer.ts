@@ -2,11 +2,15 @@ import * as L from "leaflet";
 import "./boxzoom/leaflet-control-boxzoom-src.js";
 import "./zoomslider/L.Control.Zoomslider.js";
 import "./leaflet_select/leaflet.control.select.js";
+import "./leaflet_dialogue/leaflet-control-dialogue-src.js";
+import "./leaflet_dialogue/Leaflet.Dialog.js";
 
 import boxzoom_svg from "./boxzoom/leaflet-control-boxzoom.svg";
 import "./boxzoom/leaflet-control-boxzoom.css";
 import "./zoomslider/L.Control.Zoomslider.css";
 import "./leaflet_select/leaflet.control.select.css";
+import "./leaflet_dialogue/Leaflet.Dialog.css";
+import "./reena.css";
 
 import * as common from "./common";
 
@@ -199,12 +203,33 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     L.Control.boxzoom({
         position: 'topleft',
     }).addTo(mymap);
+		
+	if (info.journal !== undefined) {
+		let dialogue = L.Control.dialogue2({initOpen: false})
+			.setContent(info.journal)
+			.addTo(mymap);
+		dialogue
+			.lock()
+			.showClose()
+			
+		L.Control.dialogue({
+			position: "topleft",
+			onClick: function() {
+				dialogue.open()
+			},
+			})
+			.addTo(mymap);
+	}
 	
 	var days = []
 	for (let i = 0; i < 4; i++) {
 	   days.push({label: "Day " + i, value: "d-" + i})
 	}
-	var defaultValue = window.location.href.match(/d-\d+/)![0];
+	var defaultValue = "d-3";
+	
+	if (window.location.href.match(/d-\d+/)) {
+		defaultValue = window.location.href.match(/d-\d+/)![0]
+	}
 	L.Control.select({
 		position: "topleft",
 		selectedDefault: defaultValue,

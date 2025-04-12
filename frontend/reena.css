@@ -1,0 +1,94 @@
+.crash-log {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow-y: auto;
+    height: 400px;  /* Optional: You can adjust the height to fit your content */
+}
+
+/* Header styling */
+.crash-log h2 {
+    font-size: 24px;
+    color: #76c7c0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.crash-log h3 {
+    font-size: 20px;
+    color: #76c7c0;
+    margin-top: 20px;
+    border-bottom: 2px solid #76c7c0;
+    padding-bottom: 5px;
+}
+
+/* Text styling */
+.crash-log p, .crash-log ul, .crash-log blockquote {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.crash-log ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crash-log ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.crash-log ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #76c7c0;
+    font-size: 20px;
+}
+
+/* Blockquote styling */
+.crash-log blockquote {
+    border-left: 4px solid #76c7c0;
+    padding-left: 15px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* Coordinates styling */
+.coordinates {
+    font-weight: bold;
+    color: #e0e0e0;
+    background-color: #3a3a3a;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+/* Custom scrollbar */
+.crash-log::-webkit-scrollbar {
+    width: 12px;
+}
+
+.crash-log::-webkit-scrollbar-thumb {
+    background-color: #76c7c0;
+    border-radius: 10px;
+}
+
+.crash-log::-webkit-scrollbar-thumb:hover {
+    background-color: #57a79a;
+}
+
+.crash-log::-webkit-scrollbar-track {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+
+.crash-log .timestamp,
+.crash-log .location {
+    font-style: italic;
+}

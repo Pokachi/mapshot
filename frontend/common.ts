@@ -65,7 +65,10 @@ export interface MapshotJSON {
     map_id: string,
 
     // Rendering info per surface.
-    surfaces: MapshotSurfaceJSON[];
+    surfaces: MapshotSurfaceJSON[],
+	
+	// Journal
+	journal: string,
 }
 
 // Information about a single exported rendered surface.
