@@ -1,6 +1,6 @@
 L.Control.Dialogue2 = L.Control.extend({
   options: {
-    size: [ 600, 500 ],
+    size: [ 75, 60 ],
     minSize: [ 600, 500 ],
     maxSize: [ 600, 500 ],
     anchor: [ 235, 35 ],
@@ -181,8 +181,10 @@ L.Control.Dialogue2 = L.Control.extend({
     var className = "leaflet-control-dialog",
       container = (this._container = L.DomUtil.create("div", className + " crash-log"));
 
-    container.style.width = this.options.size[0] + "px";
-    container.style.height = this.options.size[1] + "px";
+    container.style.width = this.options.size[0] + "vw";
+    container.style.maxWidth = "600px";
+    container.style.height = this.options.size[1] + "vh";
+    container.style.maxHeight = "500px";
 
     container.style.top = this.options.anchor[0] + "px";
     container.style.left = this.options.anchor[1] + "px";
@@ -327,13 +329,15 @@ L.Control.Dialogue2 = L.Control.extend({
 
     if (newX <= this.options.maxSize[0] && newX >= this.options.minSize[0]) {
       this.options.size[0] = newX;
-      this._container.style.width = this.options.size[0] + "px";
+      this._container.style.width = this.options.size[0] + "vw";
+      this._container.style.maxWidth = "600px";
       this._oldMousePos.x += diffX;
     }
 
     if (newY <= this.options.maxSize[1] && newY >= this.options.minSize[1]) {
       this.options.size[1] = newY;
-      this._container.style.height = this.options.size[1] + "px";
+      this._container.style.height = this.options.size[1] + "vh";
+      this._container.style.maxHeight = "500px";
       this._oldMousePos.y += diffY;
     }
 
@@ -360,8 +364,10 @@ L.Control.Dialogue2 = L.Control.extend({
   },
 
   _updateLayout: function() {
-    this._container.style.width = this.options.size[0] + "px";
-    this._container.style.height = this.options.size[1] + "px";
+    this._container.style.width = this.options.size[0] + "vw";
+    this._container.style.maxWidth = "600px";
+    this._container.style.height = this.options.size[1] + "vh";
+    this._container.style.maxHeight = "500px";
 
     this._container.style.top = this.options.anchor[0] + "px";
     this._container.style.left = this.options.anchor[1] + "px";

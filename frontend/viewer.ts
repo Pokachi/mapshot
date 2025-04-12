@@ -237,7 +237,8 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		items: days,
 		onSelect: function (newDay:any) {
 			//console.log(newDay)
-			window.location.href = window.location.href.replace(/d-\d+/, newDay)
+			let result = window.location.href.replace(/d-\d+/, newDay);
+			window.location.href = result.replace(/l=ReenaPy/, "path=/data/mapshot/map-6711dac5/" + newDay + "/");
 		},
 		})
 		.addTo(mymap);
