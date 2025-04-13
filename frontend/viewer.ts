@@ -221,11 +221,12 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 			.addTo(mymap);
 	}
 	
-	var days = []
-	for (let i = 0; i < 4; i++) {
+	var days = [];
+	var num_days = 6;
+	for (let i = 0; i <= num_days; i++) {
 	   days.push({label: "Day " + i, value: "d-" + i})
 	}
-	var defaultValue = "d-3";
+	var defaultValue = "d-" + num_days;
 	
 	if (window.location.href.match(/d-\d+/)) {
 		defaultValue = window.location.href.match(/d-\d+/)![0]
