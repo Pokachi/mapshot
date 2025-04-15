@@ -222,7 +222,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	}
 	
 	var days = [];
-	var num_days = 9;
+	var num_days = 10;
 	for (let i = 0; i <= num_days; i++) {
 	   days.push({label: "Day " + i, value: "d-" + i})
 	}
