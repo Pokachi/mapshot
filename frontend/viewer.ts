@@ -240,6 +240,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	for (let i = selected_day + 1; i < Math.min(num_days, selected_day+4); i++) {
 		days.push({label: "Day " + i, value: "d-" + i})
 	}
+	days.push({label: "Day " + num_days, value: "d-" + num_days});
 	
 	L.Control.select({
 		position: "topleft",
