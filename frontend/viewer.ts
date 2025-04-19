@@ -222,15 +222,25 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	}
 	
 	var days = [];
-	var num_days = 11;
-	for (let i = 0; i <= num_days; i++) {
-	   days.push({label: "Day " + i, value: "d-" + i})
-	}
+	var num_days = 12;
+	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
 	if (window.location.href.match(/d-\d+/)) {
 		defaultValue = window.location.href.match(/d-\d+/)![0]
 	}
+	var selected_day =  parseInt(defaultValue.match(/\d+/);
+	
+	for (let i = Math.max(1, selected_day-3); i < selected_day; i++) {
+	   days.push({label: "Day " + i, value: "d-" + i})
+	}
+	days.push({label: "Day " + selected_day, value: "d-" + selected_day});
+	
+	for (let i = selected_day + 1; i < Math.min(num_days, selected_day+3); i++) {
+	   days.push({label: "Day " + i, value: "d-" + i})
+	}
+	days.push({label: "Day " + num_days, value: "d-" + num_days});
+	
 	L.Control.select({
 		position: "topleft",
 		selectedDefault: defaultValue,
