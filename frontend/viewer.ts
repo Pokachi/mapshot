@@ -237,7 +237,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		}
 	}
 	days.push({label: "Day " + selected_day, value: "d-" + selected_day});
-	if (selected < num_days) {
+	if (selected_day < num_days) {
 		for (let i = selected_day + 1; i <= Math.min(num_days, selected_day+3); i++) {
 		   days.push({label: "Day " + i, value: "d-" + i})
 		}
