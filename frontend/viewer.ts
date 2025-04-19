@@ -229,7 +229,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	if (window.location.href.match(/d-\d+/)) {
 		defaultValue = window.location.href.match(/d-\d+/)![0]
 	}
-	var selected_day =  parseInt(defaultValue.match(/\d+/)![0];
+	var selected_day =  parseInt(defaultValue.match(/\d+/)![0]);
 	
 	for (let i = Math.max(1, selected_day-3); i < selected_day; i++) {
 	   days.push({label: "Day " + i, value: "d-" + i})
