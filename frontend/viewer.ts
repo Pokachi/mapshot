@@ -222,7 +222,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	}
 	
 	var days = [];
-	var num_days = 14;
+	var num_days = 15;
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
