@@ -226,7 +226,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	days.push({label: "Day " + num_days, value: "d-" + num_days});
 
 	var science = L.Control.dialogue2({initOpen: false})
-		.setContent('<div class="crash-log"><img src=\"/data/mapshot/map-' + info.map_id + "/d-" + selected_day + '/technology.png\"> </div>')
+		.setContent('<div class="crash-log"><img src=\"/data/' + info.map_id + "/d-" + selected_day + '/technology.png\"> </div>')
 		.addTo(mymap);
 	science
 		.lock()
