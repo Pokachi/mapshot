@@ -205,7 +205,7 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     }).addTo(mymap);
 	
 	var days = [];
-	var num_days = 10;
+	var num_days = 11;
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
