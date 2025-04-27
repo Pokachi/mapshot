@@ -203,26 +203,9 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     L.Control.boxzoom({
         position: 'topleft',
     }).addTo(mymap);
-		
-	if (info.journal !== undefined) {
-		let dialogue = L.Control.dialogue2({initOpen: false})
-			.setContent(info.journal)
-			.addTo(mymap);
-		dialogue
-			.lock()
-			.showClose()
-			
-		L.Control.dialogue({
-			position: "topleft",
-			onClick: function() {
-				dialogue.open()
-			},
-			})
-			.addTo(mymap);
-	}
 	
 	var days = [];
-	var num_days = 15;
+	var num_days = 7;
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
@@ -241,19 +224,65 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		days.push({label: "Day " + i, value: "d-" + i})
 	}
 	days.push({label: "Day " + num_days, value: "d-" + num_days});
+
+	var science = L.Control.dialogue2({initOpen: false})
+		.setContent('<div class="crash-log"><img src=\"/data/mapshot/map-' + info.map_id + "/d-" + selected_day + '/technology.png\"> </div>')
+		.addTo(mymap);
+	science
+		.lock()
+		.showClose();
 	
-	L.Control.select({
+	var dialogue = L.Control.dialogue2({initOpen: false});
+	
+	var select = L.Control.select({
 		position: "topleft",
 		selectedDefault: defaultValue,
 		iconMain: "📅",
 		items: days,
+		onOpen: function() {
+			science.close();
+			if (info.journal !== undefined) {
+				dialogue.close();
+			}
+		},
 		onSelect: function (newDay:any) {
 			//console.log(newDay)
 			let result = window.location.href.replace(/d-\d+/, newDay);
 			window.location.href = result.replace(/l=ReenaPy/, "path=/data/ReenaPy/" + newDay + "/");
 		},
 		})
+		
+	if (info.journal !== undefined) {
+		dialogue
+			.setContent(info.journal)
+			.addTo(mymap);
+		dialogue
+			.lock()
+			.showClose()
+			
+		L.Control.dialogue({
+			position: "topleft",
+			onClick: function() {
+				dialogue.open();
+				science.close();
+				select._hideMenu();
+			},
+			})
+			.addTo(mymap);
+	}
+	L.Control.dialogue({
+		position: "topleft",
+		iconMain: "🧪",
+		onClick: function() {
+			science.open();
+			if (info.journal !== undefined) {
+				dialogue.close();
+				select._hideMenu();
+			}
+		},
+		})
 		.addTo(mymap);
+	select.addTo(mymap);
 
     // Set original view (position/zoom/layers).
     const queryParams = new URLSearchParams(window.location.search);

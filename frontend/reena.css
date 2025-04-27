@@ -3,9 +3,9 @@
     background-color: #1a1a1a;
     color: #e0e0e0;
     padding: 20px;
-    margin: 10px;
+    #margin: 10px;
     border-radius: 8px;
-    overflow-y: auto;
+    overflow: auto;
     height: 400px;  /* Optional: You can adjust the height to fit your content */
 }
 
