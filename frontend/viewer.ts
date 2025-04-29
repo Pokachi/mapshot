@@ -156,7 +156,7 @@ class Surface {
 
 }
 
-function run(config: common.MapshotConfig, info: common.MapshotJSON) {
+async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     const layerControl = L.control.layers();
 
     const surfaces: Surface[] = [];
@@ -205,7 +205,9 @@ function run(config: common.MapshotConfig, info: common.MapshotJSON) {
     }).addTo(mymap);
 	
 	var days = [];
-	var num_days = 13;
+	
+	var num_days = parseInt((await fetch("/latest/ReenaPy")
+        .then(resp => resp.json()))["encoded_path"].match(/\d+/)[0]);
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
