@@ -13,6 +13,7 @@ import "./leaflet_dialogue/Leaflet.Dialog.css";
 import "./reena.css";
 
 import * as common from "./common";
+import fs from "fs";
 
 common.globalCSS(`
     html,body {
@@ -243,7 +244,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		items: days,
 		onOpen: function() {
 			science.close();
-			if (info.journal !== undefined) {
+			if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
 				dialogue.close();
 			}
 		},
@@ -254,9 +255,10 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		},
 		})
 		
-	if (info.journal !== undefined) {
+	if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
+		let crashLogData = JSON.parse(fs.readFileSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json", "utf8"));
 		dialogue
-			.setContent(info.journal)
+			.setContent(renderCrashLog(crashLogData))
 			.addTo(mymap);
 		dialogue
 			.lock()
@@ -277,7 +279,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		iconMain: "🧪",
 		onClick: function() {
 			science.open();
-			if (info.journal !== undefined) {
+			if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
 				dialogue.close();
 				select._hideMenu();
 			}
