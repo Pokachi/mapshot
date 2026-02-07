@@ -156,7 +156,7 @@ class Surface {
 
 }
 
-async function run(config: common.MapshotConfig, info: common.MapshotJSON, crashlog:common.CrashLog) {
+async function run(config: common.MapshotConfig, info: common.MapshotJSON, crashlog:common.CrashLog | null) {
     const layerControl = L.control.layers();
 
     const surfaces: Surface[] = [];
