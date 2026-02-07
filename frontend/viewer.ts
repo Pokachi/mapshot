@@ -14,8 +14,6 @@ import "./reena.css";
 
 import * as common from "./common";
 
-const fs = require('fs');
-
 common.globalCSS(`
     html,body {
         margin: 0;
@@ -245,7 +243,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		items: days,
 		onOpen: function() {
 			science.close();
-			if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
+			if (true) {
 				dialogue.close();
 			}
 		},
@@ -256,8 +254,9 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		},
 		})
 		
-	if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
-		let crashLogData = JSON.parse(fs.readFileSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json", "utf8"));
+	if (true) {
+		let crashLogDataResponse = await fetch("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json");
+		let crashLogData = await crashLogDataResponse.json();
 		dialogue
 			.setContent(common.renderCrashLog(crashLogData))
 			.addTo(mymap);
@@ -280,7 +279,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		iconMain: "🧪",
 		onClick: function() {
 			science.open();
-			if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
+			if (true) {
 				dialogue.close();
 				select._hideMenu();
 			}
