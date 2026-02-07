@@ -68,11 +68,6 @@ export interface MapshotJSON {
     surfaces: MapshotSurfaceJSON[],
 }
 
-export interface CrashLog {
-  id: number;
-  summary: string[];
-}
-
 // Information about a single exported rendered surface.
 export interface MapshotSurfaceJSON {
     // The name of the game surface that was rendered.
@@ -141,13 +136,13 @@ export function globalCSS(css: string) {
     document.head.appendChild(style);
 }
 
-export function renderCrashLog(data: CrashLog): string {
+export function renderCrashLog(data_id: int, data: string[]): string {
     return `
 <div class="crash-log">
-  <h2>Crash Log #${data.id}</h2>
+  <h2>Crash Log #${data_id}</h2>
 
   <h3>Summary:</h3>
-  ${data.summary.map(p => `<p>${p}</p>`).join("")}
+  ${data.map(p => `<p>${p}</p>`).join("")}
 </div>
 `.trim();
 }
