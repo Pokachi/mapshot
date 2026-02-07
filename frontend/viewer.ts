@@ -243,7 +243,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		items: days,
 		onOpen: function() {
 			science.close();
-			if (crashlog !== undefined) {
+			if (crashlog !== undefined && crashlog != null) {
 				dialogue.close();
 			}
 		},
@@ -277,7 +277,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		iconMain: "🧪",
 		onClick: function() {
 			science.open();
-			if (crashlog !== undefined) {
+			if (crashlog !== undefined && crashlog != null) {
 				dialogue.close();
 				select._hideMenu();
 			}
