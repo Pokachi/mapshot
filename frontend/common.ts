@@ -140,3 +140,14 @@ export function globalCSS(css: string) {
     style.innerHTML = css;
     document.head.appendChild(style);
 }
+
+export function renderCrashLog(data: CrashLog): string {
+    return `
+<div class="crash-log">
+  <h2>Crash Log #${data.id}</h2>
+
+  <h3>Summary:</h3>
+  ${data.summary.map(p => `<p>${p}</p>`).join("")}
+</div>
+`.trim();
+}
