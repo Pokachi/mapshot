@@ -1,0 +1,11 @@
+{
+  "id": 6,
+  "summary": [
+    "I finally produced enough steel to build a solid separator and got ash processing underway. The system produces coal ash that can be used as fuel, iron oxide that can be smelted into iron plates, and soot. While the solid separator can process soot, I’m holding onto it for now, as it would generate more minerals than I can process at the moment.",
+    "I improved the precipitation tank setup so that it can craft new filters automatically if a used filter breaks, since a used filter only has an 80% recycle rate. This should ensure continuous water purification for limestone production and steel processing.",
+    "With enough steel produced, I upgraded my mining pickaxe to steel, increasing mining speed. I spent a lot of time mining rocks to keep research moving forward.",
+    "I researched fluid mining, which enables aluminum extraction. For now, I will skip this technology as I have no immediate use for aluminum.",
+    "I also researched soil washing. While it doesn’t produce anything useful directly, the follow up technology unlocked the crusher. The crusher provides a much more efficient iron plate recipe: currently we convert 8 iron ore into 1 iron plate, but with the crusher we can process the ore first, increasing efficiency to 5 iron ore per plate. An added benefit is that it produces stone as a byproduct, which is perfect since I need large amounts of stone for science.",
+    "I researched an additional chunk one more time and fully unlocked the chunk containing stone, the chunk with aluminum, the chunk next to iron ore for space, and one additional chunk for coal. This secures resources for future expansions and large-scale automation."
+  ]
+}

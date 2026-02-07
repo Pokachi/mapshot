@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "summary": [
+    "Today saw a lot of progress, mostly focused on getting science and basic automation online. Science requires native flowers, and the floral collector requires electricity. I set up boilers and a steam engine to generate power, finally bringing science online. Building the collector was expensive: one Floral Collector cost a whopping 647 iron plates and 332 copper plates, so I had to scale up mining to meet the demand.",
+    "To support expansion, I researched additional chunks twice and claimed three new chunks. Two chunks below the copper were claimed to access stone, a key ingredient for automation science packs. To mine the stone, carbolic oil is required. I also unlocked a chunk beneath iron to secure more space for future expansion.",
+    "Automation research was a major milestone. With the resources available, I built a basic mall to craft belts, underground belts, pipes, underground pipes, and inserters, greatly streamlining construction and scaling. For now, I still have to manually haul iron and copper plates to the mall, but it is better than nothing and speeds up production compared to fully handcrafting everything.",
+    "Coal processing became a priority to produce tar for carbolic oil. I began setting up destructive distillation columns to refine raw coal into coal and then coal into coke. However, the process consumes energy: 10 raw coal at 1.5 MJ each is 15 MJ, producing 3 coal at 4 MJ each gives 12 MJ, and 10 coal at 4 MJ each produces 6 coal at 5 MJ for 30 MJ total. While the process produces useful byproducts and generates less ash, it is not energy-efficient. For now, I continue producing coke to secure tar needed for stone mining.",
+    "Speaking of ash, it has already replaced most of my stone chests. Sooner or later, I will need a solution to manage the accumulation.",
+    "Defenses were reinforced with more turrets. Biters attacked again at night, but I am growing accustomed to the constant nightly assaults. The perimeter held strong, allowing me to focus on expansion and automation planning during the day."
+  ]
+}
