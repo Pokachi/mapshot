@@ -255,10 +255,13 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		})
 		
 	if (true) {
-		let crashLogDataResponse = await fetch("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json");
-		let crashLogData = await crashLogDataResponse.json();
 		dialogue
-			.setContent(common.renderCrashLog(crashLogData))
+			.setContent(await fetch("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")
+		        .then(resp => resp.json())
+		        .then((crashLog: common.CrashLog) => {
+		            common.renderCrashLog(crashLog);
+		        })
+		     )
 			.addTo(mymap);
 		dialogue
 			.lock()
