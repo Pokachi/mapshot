@@ -258,7 +258,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 	if (fs.existsSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")) {
 		let crashLogData = JSON.parse(fs.readFileSync("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json", "utf8"));
 		dialogue
-			.setContent(renderCrashLog(crashLogData))
+			.setContent(common.renderCrashLog(crashLogData))
 			.addTo(mymap);
 		dialogue
 			.lock()
