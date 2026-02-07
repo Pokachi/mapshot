@@ -243,7 +243,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		items: days,
 		onOpen: function() {
 			science.close();
-			if (true) {
+			if (info.journal !== undefined) {
 				dialogue.close();
 			}
 		},
@@ -254,14 +254,9 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		},
 		})
 		
-	if (true) {
+	if (info.journal !== undefined) {
 		dialogue
-			.setContent(await fetch("/data/" + info.map_id + "/d-" + selected_day + "crashlog.json")
-		        .then(resp => resp.json())
-		        .then((crashLog: common.CrashLog) => {
-		            common.renderCrashLog(crashLog);
-		        })
-		     )
+			.setContent(common.renderCrashLog(selected_day, info.journal))
 			.addTo(mymap);
 		dialogue
 			.lock()
@@ -282,7 +277,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		iconMain: "🧪",
 		onClick: function() {
 			science.open();
-			if (true) {
+			if (info.journal !== undefined) {
 				dialogue.close();
 				select._hideMenu();
 			}
