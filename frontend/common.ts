@@ -66,9 +66,11 @@ export interface MapshotJSON {
 
     // Rendering info per surface.
     surfaces: MapshotSurfaceJSON[],
-	
-	// Journal
-	journal: string,
+}
+
+export interface CrashLog {
+  id: number;
+  summary: string[];
 }
 
 // Information about a single exported rendered surface.
