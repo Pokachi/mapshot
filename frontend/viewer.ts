@@ -13,7 +13,8 @@ import "./leaflet_dialogue/Leaflet.Dialog.css";
 import "./reena.css";
 
 import * as common from "./common";
-import fs from "fs";
+
+const fs = require('fs');
 
 common.globalCSS(`
     html,body {
