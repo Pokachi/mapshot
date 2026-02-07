@@ -254,7 +254,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		},
 		})
 		
-	if (crashlog !== undefined) {
+	if (crashlog !== undefined && crashlog != null) {
 		dialogue
 			.setContent(common.renderCrashLog(crashlog))
 			.addTo(mymap);
