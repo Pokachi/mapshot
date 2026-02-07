@@ -156,7 +156,7 @@ class Surface {
 
 }
 
-async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
+async function run(config: common.MapshotConfig, info: common.MapshotJSON, crashlog:common.CrashLog) {
     const layerControl = L.control.layers();
 
     const surfaces: Surface[] = [];
@@ -243,7 +243,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		items: days,
 		onOpen: function() {
 			science.close();
-			if (info.journal !== undefined) {
+			if (crashlog !== undefined) {
 				dialogue.close();
 			}
 		},
@@ -254,9 +254,9 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		},
 		})
 		
-	if (info.journal !== undefined) {
+	if (crashlog !== undefined) {
 		dialogue
-			.setContent(common.renderCrashLog(selected_day, info.journal))
+			.setContent(common.renderCrashLog(crashlog))
 			.addTo(mymap);
 		dialogue
 			.lock()
@@ -277,7 +277,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 		iconMain: "🧪",
 		onClick: function() {
 			science.open();
-			if (info.journal !== undefined) {
+			if (crashlog !== undefined) {
 				dialogue.close();
 				select._hideMenu();
 			}
@@ -352,9 +352,24 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON) {
 
 // ------ Bootstrap ------
 
+function load2(config: common.MapshotConfig, info: common.MapshotJSON) {
+	fetch(config.encoded_path + 'crashlog.json')
+	.then(resp => {
+		if (resp.status === 404) {
+			console.warn('File not found: crashlog.json');
+			return null; // or return a default value
+		}
+		return resp.json();
+    })
+	.then((log: common.CrashLog | null) => {
+		console.log("CrashLog", log);
+		run(config, info, log);
+	});
+}
+
 function load(config: common.MapshotConfig) {
     console.log("Config", config);
-
+	
     fetch(config.encoded_path + 'mapshot.json')
         .then(resp => resp.json())
         .then((info: common.MapshotJSON) => {
@@ -383,7 +398,7 @@ function load(config: common.MapshotConfig) {
             }
 
             console.log("Map info", info);
-            run(config, info);
+            load2(config, info);
         });
 }
 
