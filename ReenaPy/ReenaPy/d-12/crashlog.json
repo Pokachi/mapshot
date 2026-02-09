@@ -1,0 +1,10 @@
+{
+  "id": 13,
+  "summary": [
+    "Today was mostly spent trying to get wood production online, and almost every part of it was frustrating. The buildings are expensive, space is tight, and to make wood in the first place, I need wood. It’s a messy dependency chain.",
+    "In the end, I had to set up tree production to the north, in an area I originally intended to reserve for logistics. This made routing belts and fluids awkward, but the connections are in place. Wood production is about 90% online. I still need to grow more trees to increase throughput, but it should be fully operational by tomorrow.",
+    "I also expanded the crusher setup slightly to increase stone production. This will help support science, but it comes with a cost: higher power demand.",
+    "With increased power usage, steam production will need to scale up again, which means more ash. At this point, I’m not sure if the three solid separators can keep up, and I don’t currently have room to add more.",
+    "Once I unlock a bit more space, another base redesign may be necessary. For now, the priority is finishing wood production. Assuming that’s done tomorrow, I may take a short break and let the base run research on its own for a while. Don’t expect updates for a couple of days."
+  ]
+}
