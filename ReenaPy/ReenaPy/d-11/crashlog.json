@@ -1,0 +1,10 @@
+{
+  "id": 12,
+  "summary": [
+    "I finished automating steel production. While full automation isn’t possible yet without wood processing, steel is now produced continuously without direct intervention by using a stash of wood I've produced manually in the past.",
+    "I connected coal mine ash output directly into the solid separator system. We are finally chewing through the stockpiled ash, and for the first time in a while, I can see the end of the tunnel on waste management.",
+    "Base automation is largely complete for this phase. There are still some unresolved byproducts: rich clay from carbolic oil production, soot from ash processing, and wood still has to be chopped and delivered manually. Aside from these exceptions, resources are now produced and consumed automatically. There may still be hidden bottlenecks due to how interconnected everything is, but I’ll address them as they appear.",
+    "With automation science fully online, I completed several research projects in quick succession, including one more additional chunk, botany, concrete, moss, and wood processing. These unlock the final step needed to fully automate automation science.",
+    "I still need to study the wood processing recipes, design a blueprint, and build the facility itself. For now, I’m holding off on further expansion and saving chunk research points while deciding where to expand next."
+  ]
+}
