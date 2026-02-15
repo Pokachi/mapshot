@@ -68,9 +68,21 @@ export interface MapshotJSON {
     surfaces: MapshotSurfaceJSON[],
 }
 
+export interface CrashLogStatus {
+	power: string;
+	production: string;
+	science: string;
+	defense: string;
+}
+
 export interface CrashLog {
   id: number;
+  location: string;
+  date: string;
+  time: string;
   summary: string[];
+  status: CrashLogStatus[];
+  todo: string[];
 }
 
 // Information about a single exported rendered surface.
@@ -145,9 +157,22 @@ export function renderCrashLog(data: CrashLog): string {
     return `
 <div class="crash-log">
   <h2>Crash Log #${data.id}</h2>
-
+  <strong>Location: </strong>#${data.location}<br/>
+  <strong>Date: </strong>#${data.date}<br/>
+  <strong>Time: </strong>#${data.time}<br/>
   <h3>Summary:</h3>
   ${data.summary.map(p => `<p>${p}</p>`).join("")}
+  <h3>Action Items:</h3>
+  <h3>Status Snapshot:</h3>
+  <ul>
+    <li><strong>Power:</strong> ${data.status.power}</li>
+    <li><strong>Production:</strong> ${data.status.production}</li>
+    <li><strong>Science:</strong> ${data.status.science}</li>
+    <li><strong>Defense:</strong> ${data.status.defense}</li>
+  </ul>
+  <ul>
+  ${data.todo.map(p => `<li>${p}</li>`).join("")}
+  </ul>
 </div>
 `.trim();
 }
