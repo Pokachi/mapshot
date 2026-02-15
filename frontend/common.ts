@@ -81,7 +81,7 @@ export interface CrashLog {
   date: string;
   time: string;
   summary: string[];
-  status: CrashLogStatus[];
+  status: CrashLogStatus;
   todo: string[];
 }
 
