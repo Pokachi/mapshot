@@ -157,12 +157,11 @@ export function renderCrashLog(data: CrashLog): string {
     return `
 <div class="crash-log">
   <h2>Crash Log #${data.id}</h2>
-  <strong>Location: </strong>#${data.location}<br/>
-  <strong>Date: </strong>#${data.date}<br/>
-  <strong>Time: </strong>#${data.time}<br/>
+  <strong>Location: </strong>${data.location}<br/>
+  <strong>Date: </strong>${data.date}<br/>
+  <strong>Time: </strong>${data.time}<br/>
   <h3>Summary:</h3>
   ${data.summary.map(p => `<p>${p}</p>`).join("")}
-  <h3>Action Items:</h3>
   <h3>Status Snapshot:</h3>
   <ul>
     <li><strong>Power:</strong> ${data.status.power}</li>
@@ -171,6 +170,7 @@ export function renderCrashLog(data: CrashLog): string {
     <li><strong>Defense:</strong> ${data.status.defense}</li>
   </ul>
   <ul>
+  <h3>Action Items:</h3>
   ${data.todo.map(p => `<li>${p}</li>`).join("")}
   </ul>
 </div>
