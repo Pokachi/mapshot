@@ -1,9 +1,0 @@
-{
-  "id": 9,
-  "summary": [
-    "I researched the last additional chunk required to finally access quartz. The crystal miner is by far the most expensive building I’ve constructed so far, costing a whopping 1,300 iron plates and 790 copper plates. But at last, glass production is online. This also allows me to make use of the coal gas byproduct from coke production, putting some of the waste energy to use.",
-    "I built a second solid separator to help manage the persistent ash problem. Even with multiple separators, we are still producing more ash than can currently be processed, but this should help reduce the backlog.",
-    "I started tearing down older machines to rethink the base layout in preparation for a redesign. It’s becoming clear that the current layout won’t scale efficiently for future production needs.",
-    "I plan to continue researching additional chunks, but the cost is becoming prohibitive. The next chunk upgrade requires 240 automation science packs instead of the 10 we started with. At this rate, I fear that claiming additional chunks will soon become unfeasible with our current production scale."
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "id": 5,
-  "summary": [
-    "I finally finished setting up carbolic oil production for stone mining, but the results were disappointing. Stone production is slow and will not be able to keep up with the demands of science, so for now I still have to mine rocks manually as my primary source of stone. Even so, setting up coal processing was not a waste, as it is also required for steel production.",
-    "Next, I focused on steel. Producing steel requires coke, which meant coal processing was necessary anyway. Another requirement is limestone, which in turn requires purified water. To solve this, I researched basic water processing and set up a simple precipitation tank to filter water for limestone production, enabling steel production.",
-    "With steel unlocked, I was able to research ash separation, which seems promising as a solution to my ongoing ash accumulation problems. However, I quickly realized the resource cost is staggering: a single solid separator requires 100 steel, 388 copper plates, and 604 iron plates. This will take a while to build.",
-    "In parallel, I continued expanding territory. I researched additional chunks two more times and unlocked the chunk containing the last remaining iron ore, securing a critical resource for future expansion and large-scale production."
-  ]
-}

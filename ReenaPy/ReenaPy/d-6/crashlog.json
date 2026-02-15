@@ -1,9 +1,0 @@
-{
-  "id": 7,
-  "summary": [
-    "Somewhat of a slow day today. Didn't get too many stuff done, but hey it happens.",
-    "I redesigned iron processing to use the crusher. The new setup is much more efficient—5 iron ore per plate instead of 8—but the power requirements and size of the crusher mean I can only keep a few running. The majority of smelting is still done by direct insertion for now.",
-    "While analyzing steel production, I noticed the real bottleneck is limestone, which itself is limited by water purification. To address this, I redesigned the water purification setup, increasing capacity fourfold to support higher steel output.",
-    "I also researched glasswork, which is needed for advanced production. However, it requires quartz, and I currently don’t have access to any chunks containing quartz. To prepare, I researched one additional chunk, though it still isn’t enough to reach quartz deposits. Future expansion will need to focus on locating and claiming quartz-rich chunks."
-  ]
-}
