@@ -2,7 +2,7 @@
   "id": 2,
   "location": "Nauvis - Crash Site",
   "date": "Day 2",
-  "time": "1:32PM",
+  "time": "5:12AM",
   "summary": [
     "The deposits here are abundant, but nothing about this planet is easy. Coal burns filthy and leaves ash everywhere, clogging the machines almost as soon as they start running. Copper refuses to cooperate unless I feed it water. Every step forward demands another layer of infrastructure. Nothing is simple extraction — everything is dependency.",
     "With only a single mining drill, progress feels painfully slow. The drill eats through raw coal and wood faster than I can gather it. I spent most of the day breaking rocks and chopping trees to keep the miner running. It’s exhausting — mining fuel so the drill can mine materials so I can build more drills.",
@@ -14,6 +14,7 @@
     "Morning came slowly. The attacks eased, though they haven’t stopped entirely. I used the brief calm to sketch out better miner placements and future layouts in the dirt. If I’m going to survive here, I can’t just work harder. I have to work smarter."
   ],
   "status": {
+	"resource": "Claimed 500k Iron deposits, 400k Copper deposits, and 18.68M Coal deposits.".
     "power": "Temporary burner turbine to power offshore pump.",
     "production": "Minimal Iron and Copper production.",
     "science": "N/A",

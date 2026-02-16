@@ -1,0 +1,26 @@
+{
+  "id": 3,
+  "location": "Nauvis - Crash Site",
+  "date": "Day 3",
+  "time": "1:11PM",
+  "summary": [
+    "I managed to secure a slightly larger base today. Not by much, but enough to breathe. I’m starting to run out of emergency chunks to claim though. The territorial protocol is becoming a real limitation. I can feel the walls closing in, not from the biters — but from the system itself.",
+    "The defenses are holding, but they are far from perfect. There are gaps between turrets, and I know it. Strangely, the biters seem to prioritize the turrets almost 90% of the time. It’s buying me space, but at a cost. The top-right corner of the perimeter is getting hammered the hardest. I may need to reinforce that section with additional turrets before it collapses.",
+    "Spitters attack constantly now. At night, worse variants emerge — stronger, more aggressive. We killed over 150 bugs today. I stopped counting after that. I also lost one turret and several wooden fences. Replacing them feels routine already, which is unsettling.",
+    "I reestablished coal mining. Two drills are now dedicated solely to feeding coal into the mining drill supply chain, and six additional drills feed the rest of the base. I haven’t calculated ratios yet. Right now the priority is simple: keep copper and iron plate production running. Optimization can wait.",
+    "Copper and iron operations have both expanded again. We’re producing a decent flow of plates, enough to feel momentum returning. But the furnaces are burning through coal at an alarming rate. Every gain seems tied directly to fuel consumption.",
+    "On the positive side, I completed research into basic logistics. Belts and underground belts are finally available. Being able to move raw coal directly to the iron and copper lines without running back and forth feels like a breakthrough. It’s a small thing, but it feels like the first real step toward automation instead of constant manual intervention."
+  ],
+  "status": {
+	"resources": "Stable."
+    "power": "Temporary burner turbine to power offshore pump.",
+    "production": "Moderate iron, copper, and coal production",
+    "science": "Basic Logistics completed.",
+    "defense": "Expanded perimeter with weak points; top-right corner under heavy pressure."
+  },
+  "todo": [
+    "Automate coal supply to iron and copper mining to achieve copper and iron plate automation",
+    "Start looking into requirement for science.",
+    "Continue to improve base defense."
+  ]
+}
