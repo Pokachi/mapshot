@@ -1,0 +1,28 @@
+{
+  "id": 5,
+  "location": "Nauvis - Crash Site",
+  "date": "Day 5",
+  "time": "11:52AM",
+  "summary": [
+    "I designed and constructed one full column of furnace array for iron plates and half a column for copper plates. Seeing plates move in sequence instead of in scattered batches feels like real industrial progress. It’s still small, but it resembles infrastructure now — not survival scrap.",
+    "Getting science online was far more expensive than I anticipated. The soil extractor alone required 32 stone bricks, 224 iron plates, and 158 copper plates. The floral collector was worse — 96 stone bricks, 617 iron plates, and 404 copper plates. The resource drain was brutal.",
+    "The floral collector also requires power to operate, which exposed another weakness. I still cannot craft electric poles. That meant physically moving my single burner turbine and electric pole back and forth between the offshore pump and the floral collector. It was slow. Painfully slow. Automation science packs crawled into existence one batch at a time.",
+    "Science production consumes an alarming amount of stone bricks for planter boxes. I’m now running low on stone. I chopped a significant amount of wood today as well, but consumption is matching production. It feels like I’m running in place — gathering just enough to stay afloat.",
+    "I managed to complete research into Fuel Processing. The Fuel Processor converts raw coal into processed fuel, increasing energy yield by 10% and keeping ash centralized since processed fuel does not produce ash. That alone feels like a breakthrough. Unfortunately, only the burner turbine currently accepts processed fuel. Furnaces and miners still rely on raw coal, so ash remains a problem.",
+    "The next research path leads to Electricity — unlocking electric poles. That is now the priority. Once power distribution becomes stable, everything else accelerates.",
+    "Defense saw no major upgrades today, but I repaired and replaced damaged sections during repeated attacks. Tonight brought something new — two suicide nuclear biters. They detonated at the perimeter, destroying an entire section of fences and turrets instantly. Luckily, there was no follow-up wave, which likely saved the base. I rebuilt the damaged structures immediately, but the resource loss was significant."
+  ],
+  "status": {
+    "resource": "Stable but wood and stone severely limited.",
+    "power": "Temporary burner turbine rotated between offshore pump, soil extractor, and floral collector.",
+    "production": "Stable; smelting mostly automated except for manual ash clearing.",
+    "science": "Barely online; manual ingredient crafting and burner-assembler prototype used. Fuel Processing researched.",
+    "defense": "Several breaches occurred but recovered; perimeter still incomplete due to resource shortages."
+  },
+  "todo": [
+    "Research Electricity and unlock additional claim chunks.",
+    "Expand resource production.",
+    "Chop trees and mine stone around the base.",
+    "Continue reinforcing base defense."
+  ]
+}
