@@ -69,6 +69,7 @@ export interface MapshotJSON {
 }
 
 export interface CrashLogStatus {
+	resource: string;
 	power: string;
 	production: string;
 	science: string;
@@ -164,6 +165,7 @@ export function renderCrashLog(data: CrashLog): string {
   ${data.summary.map(p => `<p>${p}</p>`).join("")}
   <h3>Status Snapshot:</h3>
   <ul>
+    <li><strong>Resource:</strong> ${data.status.resource}</li>
     <li><strong>Power:</strong> ${data.status.power}</li>
     <li><strong>Production:</strong> ${data.status.production}</li>
     <li><strong>Science:</strong> ${data.status.science}</li>

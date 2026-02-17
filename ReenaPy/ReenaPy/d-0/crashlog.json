@@ -14,6 +14,7 @@
     "For now, the goal is simple: secure fuel and start mining. Survive today. Tomorrow can worry about itself."
   ],
   "status": {
+	  "resource": "N/A",
 	  "power": "N/A",
 	  "production": "N/A",
 	  "science": "N/A",

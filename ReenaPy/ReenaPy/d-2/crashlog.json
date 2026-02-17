@@ -12,7 +12,7 @@
     "On the positive side, I completed research into basic logistics. Belts and underground belts are finally available. Being able to move raw coal directly to the iron and copper lines without running back and forth feels like a breakthrough. It’s a small thing, but it feels like the first real step toward automation instead of constant manual intervention."
   ],
   "status": {
-	"resources": "Stable."
+	"resources": "Stable.",
     "power": "Temporary burner turbine to power offshore pump.",
     "production": "Moderate iron, copper, and coal production",
     "science": "Basic Logistics completed.",
