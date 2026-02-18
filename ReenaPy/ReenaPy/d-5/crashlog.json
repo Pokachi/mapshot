@@ -1,0 +1,33 @@
+{
+  "id": 6,
+  "location": "Nauvis - Crash Site",
+  "date": "Day 6",
+  "time": "12:12PM",
+  "summary": [
+    "Today was productive. I completed several key research milestones: two instances of Additional Chunks, Electricity, and Steam. For the first time since the crash, progress feels structured instead of reactive.",
+    "With Electricity unlocked, I finalized the layout for the fuel processor, burner turbines, and floral collector. Power distribution is no longer a matter of physically carrying the turbine back and forth. Native florals, soil, and water now run continuously. It feels like I’ve removed a constant irritation from my life.",
+    "Native florals spoil if left sitting too long, so I configured the extractor to mine only 200 at a time. Science production is slower this way, but since I still manually craft most components, it doesn’t bottleneck me. More importantly, it prevents waste. Controlled production feels safer.",
+    "Research into Additional Chunks allowed me to expand southward, where I secured a large iron deposit. The original patch near the crash site contains only 500k iron ores, so this expansion was necessary. Of course, claiming new territory means expanding the defensive perimeter again. I began construction but did not finish. That will have to wait until tomorrow.",
+    "Most of the day was spent clearing trees and stone to keep science and defenses supplied. Steam power itself doesn’t offer much immediately, but it leads into Coal Processing. That technology promises coal refinement into coke and the production of carbolic oil — a fluid necessary for proper stone mining. I need both desperately.",
+    "Ash accumulation is becoming a serious issue. I passed 100,000 units of ash stored today. For now, it sits in crates at the edge of the base. That solution is temporary at best. The waste is piling up faster than I can rationalize.",
+    "Tonight I encountered another nuclear biter. I know if it detonates near me, I’m finished. I placed a decoy mini turret in its path. It exploded against the turret instead of me. The loss — 10 wood, 30 iron plates, 20 copper plates — is insignificant compared to losing a section of the wall, or myself.",
+    "I also fully saturated the starting iron patch and expanded the furnace array to smelt iron plates more efficiently. Iron production has effectively doubled. For the first time, expansion feels intentional rather than desperate."
+  ],
+  "status": {
+    "resource": "Stable; expanded territory with new iron secured.",
+    "power": "Stable; semi-permanent burner turbine layout established.",
+    "production": "Stable; iron plate production doubled.",
+    "science": "Barely online and still requires manual crafting, but multiple research milestones completed.",
+    "defense": "Perimeter expansion in progress; southern section incomplete."
+  },
+  "todo": [
+    "Finish expanding the defense perimeter.",
+    "Continue clearing trees and mining stone.",
+    "Reinforce base defenses.",
+    "Investigate improved methods of stone production."
+  ],
+  "youtube": {
+	"edited": "",
+	"raw": ""
+  }
+}

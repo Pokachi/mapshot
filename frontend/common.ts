@@ -76,6 +76,11 @@ export interface CrashLogStatus {
 	defense: string;
 }
 
+export interface CrashLogYoutube {
+	raw: string;
+	edited: string;
+}
+
 export interface CrashLog {
   id: number;
   location: string;
@@ -84,6 +89,7 @@ export interface CrashLog {
   summary: string[];
   status: CrashLogStatus;
   todo: string[];
+  youtube: CrashLogYoutube;
 }
 
 // Information about a single exported rendered surface.
