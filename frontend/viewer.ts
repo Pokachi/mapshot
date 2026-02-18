@@ -291,7 +291,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 			position: "topleft",
 			iconMain: "📹",
 			onClick: function() {
-				window.open("https://youtu.be/-FYjl8QFoXc?si=b8XNF630ZIJSg5xl", '_blank').focus();
+				window.open(crashlog.youtube.raw, '_blank')?.focus();
 				if (crashlog !== undefined && crashlog != null) {
 					dialogue.close();
 					select._hideMenu();
