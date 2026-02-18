@@ -286,12 +286,12 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		.addTo(mymap);
 	select.addTo(mymap);
 	
-	if (crashlog !== undefined && crashlog != null && crashlog.youtube.raw != null && crashlog.youtube.raw !== "") {
+	if (crashlog !== undefined && crashlog != null && crashlog.youtube.raw !== "") {
 		L.Control.dialogue({
 			position: "topleft",
 			iconMain: "📹",
 			onClick: function() {
-				window.open(crashlog.youtube.raw, '_blank').focus();
+				window.open("https://youtu.be/-FYjl8QFoXc?si=b8XNF630ZIJSg5xl", '_blank').focus();
 				if (crashlog !== undefined && crashlog != null) {
 					dialogue.close();
 					select._hideMenu();
