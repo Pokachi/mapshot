@@ -285,6 +285,21 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		})
 		.addTo(mymap);
 	select.addTo(mymap);
+	
+	if (crashlog.youtube.raw !== "") {
+		L.Control.dialogue({
+			position: "topleft",
+			iconMain: "📹",
+			onClick: function() {
+				window.open(crashlog.youtube.raw, '_blank').focus();
+				if (crashlog !== undefined && crashlog != null) {
+					dialogue.close();
+					select._hideMenu();
+				}
+			},
+			})
+			.addTo(mymap);
+	}
 
     // Set original view (position/zoom/layers).
     const queryParams = new URLSearchParams(window.location.search);
