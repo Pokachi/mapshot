@@ -286,7 +286,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		.addTo(mymap);
 	select.addTo(mymap);
 	
-	if (crashlog !== undefined && crashlog != null and crashlog.youtube.raw !== "") {
+	if (crashlog !== undefined && crashlog != null && crashlog.youtube.raw !== "") {
 		L.Control.dialogue({
 			position: "topleft",
 			iconMain: "📹",
