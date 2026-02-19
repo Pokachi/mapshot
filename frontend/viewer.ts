@@ -284,7 +284,6 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		},
 		})
 		.addTo(mymap);
-	select.addTo(mymap);
 	
 	if (crashlog !== undefined && crashlog != null && crashlog.youtube.raw !== "") {
 		L.Control.dialogue({
@@ -300,6 +299,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 			})
 			.addTo(mymap);
 	}
+	select.addTo(mymap);
 
     // Set original view (position/zoom/layers).
     const queryParams = new URLSearchParams(window.location.search);
