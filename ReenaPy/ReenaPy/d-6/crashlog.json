@@ -1,0 +1,34 @@
+{
+  "id": 7,
+  "location": "Nauvis - Southern Expansion Line",
+  "date": "Day 7",
+  "time": "10:56AM",
+  "summary": [
+    "Claimed several new chunks today. The main reason wasn’t resources, but a massive ancient remain sitting at the border that blocked turret placement. Expansion was mandatory if I wanted a clean defensive line.",
+    "The new perimeter is established — partially. Due to material shortages, especially iron, I spaced turrets and wooden fences far apart. There is no automated ammo resupply yet; no belts, no inserters. It’s a skeleton defense. Functional, but fragile.",
+    "Daytime threats are manageable now. Standard biters and spitters no longer feel overwhelming. Night is a different story. Nuclear biters and wasp spitters remain the most destructive forces I face. They punch holes in the line faster than I can comfortably replace them.",
+    "Resource wise, cleared all wood and rocks within the new borders. Wood stockpile has recovered somewhat, but stone is still critically low. It remains the bottleneck for both science and production.",
+    "Relocated the fuel processor further north to simplify ash routing. One less belt line means one less complication. Copper furnaces were also repositioned closer to the iron smelting array for tighter organization.",
+    "Began constructing a basic logistics mall. Ratios are completely unoptimized, but that isn’t the priority. Accessibility and convenience matter more right now than mathematical perfection.",
+    "Iron throughput is becoming the primary constraint. The starter patch is fully saturated, but demand continues to rise. I may need to starting setting up mining operation on the newly claimed southern iron deposit to sustain growth.",
+    "On the research front, Coal Processing is complete. Next objective is implementing coke production and carbolic oil refinement. If coke improves fuel efficiency and carbolic oil enables sustainable stone mining, it could solve two mounting issues at once: ash overflow and stone scarcity."
+  ],
+  "status": {
+    "resource": "Iron throughput insufficient; stone critically low.",
+    "power": "Stable.",
+    "production": "Initial logistics mall under construction; layout unoptimized.",
+    "science": "Coal Processing researched; preparing coke and carbolic oil production.",
+    "defense": "Perimeter expanded but lightly fortified; no automated ammo resupply."
+  },
+  "todo": [
+    "Finish setting up the logistics mall.",
+    "Continue mining stone.",
+    "Implement coke and carbolic oil production.",
+    "Activate new iron patch to increase throughput.",
+    "Continue reinforcing defensive weak points."
+  ]
+  "youtube": {
+	"raw":"https://youtu.be/_aygx1mUCXI",
+	"edited":""
+  }
+}
