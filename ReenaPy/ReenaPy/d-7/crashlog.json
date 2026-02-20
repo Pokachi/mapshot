@@ -1,0 +1,34 @@
+{
+  "id": 8,
+  "location": "Crash Site - Southern Iron Expansion",
+  "date": "Day 8",
+  "time": "Noon",
+  "summary": [
+    "Today felt slower than I would’ve liked. The iron bottleneck is starting to weigh on everything. Every machine, every expansion, every research decision seems to compete for the same limited stack of plates.",
+    "I spent a good chunk of time manually mining rocks just to keep the stone reserves afloat while iron plate is slowly being produced. Science keeps eating through stone faster than I expect. It’s frustrating to watch stockpiles vanish almost as soon as they’re created.",
+    "I researched Fluid Handling today to unlock underground pipes. Coal processing is not simple — there are multiple fluids and gases involved now and underground pipes help moving necessary fluid from one location to another.",
+    "I also picked up Basic Water Processing since steam production will require it soon. The infrastructure is becoming layered and interconnected. Nothing stands alone anymore.",
+    "After that, I stopped science entirely. Iron just can’t support both research and expansion right now. It feels wrong to halt progress, but scaling iron production has to come first.",
+    "The logistics mall is technically finished, but it barely runs. It constantly starves for iron, stuttering between craft cycles. I also haven’t set up ash output yet, which is becoming a problem.",
+    "I cleared several thousand units of ash from machines by hand. Again. It’s becoming routine maintenance, and it’s eating time I’d rather spend expanding.",
+    "Once iron stabilizes, I need to automate ash removal and route everything to a central location. I can’t keep babysitting machines like this.",
+    "I had planned to move into coke and carbolic oil production, but that’ll have to wait. For now, everything hinges on fixing the iron situation."
+  ],
+  "status": {
+    "resource": "Iron critically bottlenecked; stone tight but manageable through manual mining.",
+    "power": "Stable.",
+    "production": "Mall structure complete but underfed; expansion efforts redirected to iron scaling.",
+    "science": "Fluid Handling and Basic Water Processing researched; science paused pending iron stabilization.",
+    "defense": "Perimeter holding; ongoing reinforcement of weak sections."
+  },
+  "todo": [
+    "Finish setting up new iron patch to increase iron throughput.",
+    "Continue mining stone.",
+    "Continue reinforcing defensive weak points.",
+    "Setup automated ash removal and centralized routing (after iron stabilizes)."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/sd_SZspGN7Y",
+    "edited": ""
+  }
+}
