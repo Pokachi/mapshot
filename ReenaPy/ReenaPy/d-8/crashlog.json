@@ -1,0 +1,34 @@
+{
+  "id": 9,
+  "location": "Crash Site - Ash Storage",
+  "date": "Day 9",
+  "time": "Noon",
+  "summary": [
+    "Today revolved almost entirely around the southern iron expansion. Most of my time was spent waiting for plates to accumulate, and while I waited, I went back to mining rocks by hand. Stone reserves look healthier again for now, though I know once science restarts, they’ll probably vanish just as quickly.",
+    "The southern iron patch is finally taking shape. I now have 27 mining drills feeding into 3 furnace arrays. The theoretical miner-to-furnace ratio is 24:25, but I’m effectively treating it as 1:1. My furnace stack design only accepts half a yellow belt of ore per lane, and 9 miners saturate half a yellow belt. With 27 miners, that’s exactly three half-belts — clean and predictable.",
+    "Powering the additional miners meant expanding coal production as well. Every step forward seems to demand another layer of support infrastructure.",
+    "One of the biggest improvements today wasn’t expansion — it was cleanup. I finished setting up automated ash output for the starting iron, copper, coal drills, and their furnace arrays. Ash is now being removed automatically and routed to a centralized storage location.",
+    "Seeing ash move on belts instead of piling up inside machines feels like progress. That said, the central ash storage is growing alarmingly large. It’s organized now, but still very much a problem waiting for a permanent solution.",
+    "The new southern iron mine and the logistics mall are not yet connected to the ash handling system. That will be tomorrow’s task.",
+    "I’m also considering scaling the southern deposit even further. The goal is 45 miners feeding 5 full furnace arrays. That should finally give me breathing room on iron.",
+    "If I have time tomorrow, I’ll try to restart science. Realistically though, I doubt I will. There’s still too much infrastructure to stabilize before I can afford that kind of consumption."
+  ],
+  "status": {
+    "resource": "Southern iron online; stone temporarily stable.",
+    "power": "Expanded coal production to support new miners.",
+    "production": "3 new furnace arrays active; automated ash removal operational for starter base.",
+    "science": "Paused; awaiting iron stabilization before resuming.",
+    "defense": "Perimeter holding; ongoing reinforcement of weak sections."
+  },
+  "todo": [
+    "Hook southern iron mine and furnace into automated ash system.",
+    "Connect logistics mall to automated ash system.",
+    "Scale southern iron to 45 miners and 5 furnace arrays.",
+    "Begin coke and carbolic production chain setup.",
+    "Resume science if time allows."
+  ],
+  "youtube": {
+	"raw": "https://youtu.be/wB6L4PoNWGk",
+	"edited": ""
+  }
+}
