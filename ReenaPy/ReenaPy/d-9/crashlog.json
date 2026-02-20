@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "location": "Crash Site - Southern Iron Expansion",
+  "date": "Day 10",
+  "time": "Noon",
+  "summary": [
+    "Today was a classic case of trying to do too many things at once and somehow finishing none of them properly.",
+    "On paper, I made progress. The southern iron expansion is now at 45 mining drills feeding 5 furnace arrays. That part is done. But those furnaces chew through coal like a bonfire through dry leaves, so I had to run a second coal belt down south and expand coal mining again. Every time I scale one resource, another one demands attention.",
+    "I finished the ash output for the logistics mall, which felt good. However, routing ash from the southern iron mine and furnace arrays required more space, so I expanded territory again. I’m now back down to one chunk point. The two newly claimed chunks still need proper defensive perimeters, and until that’s done, the ash routing remains incomplete.",
+    "I restarted science today, mostly because I discovered—by accident—that native flowers can spoil. Didn’t want to waste them. I completed Soil Washing research hoping it would help with stone production. For now, it doesn’t give me anything immediately useful.",
+    "I also began researching additional chunk expansion again since I’m nearly out of chunk points.",
+    "Iron was yesterday’s problem. Today, surprisingly, copper became the bottleneck. I scraped together just enough copper to push through what I needed, but tomorrow I’ll need to scale copper production. Fully saturating the small copper patch should be enough.",
+    "I placed blueprints for water treatment, boilers, and destructive distillation columns, but couldn’t afford to craft them. The precipitation tank alone costs 532 iron plates and 36 copper plates. A destructive distillation column costs 80 stone, 371 iron plates, and 312 copper plates. Seeing those numbers makes it obvious why I pushed so hard on iron expansion.",
+    "Defense suffered today. Multiple breaches happened because I was too distracted. Some turrets ran dry and weren’t resupplied in time. Nighttime special biters and spitters tore down several walls and turrets. Thankfully, no production buildings were lost—but that was luck more than planning.",
+    "In the end, I attempted everything I said I would do yesterday. Most tasks are now half-finished. Lesson learned: focus on one objective at a time."
+  ],
+  "status": {
+    "resource": "Iron scaled to 45 miners / 5 arrays; coal extraction expaned; copper emerging as new bottleneck.",
+    "power": "Holding, but dependent on expanded coal supply.",
+    "production": "Ash routing partially complete; large infrastructure builds blueprinted but not constructed.",
+    "science": "Restarted; Soil Washing completed; researching additional chunk expansion.",
+    "defense": "Multiple breaches due to lack of ammo resupply; perimeter expansion incomplete."
+  },
+  "todo": [
+    "Complete defensive perimeter for newly claimed chunks.",
+    "Continue to reinforce weak points in the perimeter.",
+    "Finish ash routing for southern iron expansion.",
+    "Scale copper production (saturate small patch).",
+    "Construct water treatment and destructive distillation infrastructure.",
+    "Prioritize one major task and complete it fully."
+  ]
+  "youtube": {
+	"raw": "https://youtu.be/Fh-Jk8oHNNo",
+	"edited": ""
+  }
+}
