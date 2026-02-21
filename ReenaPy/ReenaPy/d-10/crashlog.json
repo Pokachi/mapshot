@@ -1,0 +1,37 @@
+{
+  "id": 11,
+  "location": "Nauvis - Crash Site - Stone Deposit",
+  "date": "Day 11",
+  "time": "Noon",
+  "summary": [
+    "Today was actually a pretty good day. For once, I feel like I closed more loops than I opened.",
+    "I finished constructing the defensive perimeter for the newly claimed chunks and completed the ash routing for the southern iron expansion. The ash system is now fully integrated across the main mining and smelting operations. It’s messy, but it’s centralized.",
+    "Copper production has been scaled to fully saturate the starting patch. It should be enough for now.",
+    "On the research front, I completed Additional Chunks and Steel. I also finished constructing the water treatment, steam production, and destructive distillation infrastructure. Coke and carbolic oil are now online.",
+    "I connected carbolic oil to automated stone mining. The stone miner produces both stone and kerogen. Kerogen holds 2MJ of energy compared to raw coal’s 1.5MJ, which makes it a better direct fuel source. That part is promising.",
+    "However, that’s where the good news ends. Coke holds 5MJ of energy, but producing it is inefficient. Ten raw coal (15MJ total) convert into three coal (12MJ), and ten coal (40MJ) convert into 6 coke (30MJ). The chain loses energy overall, which makes coke impractical as a fuel source.",
+    "Carbolic oil production is also slow. It converts 100 units of tar and steam into just 10 units of carbolic oil. On top of that, the boiler to produce steam is horribly inefficient and consumes coal at an alarming rate.",
+    "The overall result is disappointing. I’m still going to rely heavily on manual stone mining for now.",
+    "To make matters worse, the coke and carbolic chain produces two byproducts I can’t use yet: coal gas and rich clay. I could coal gas syngas into ash, but that feels wasteful. For now, both are being stored.",
+    "Wood reserves are running low again, so tree clearing is back on the agenda.",
+    "Not everything is a loss, though. Steel production requires coke, so the coke setup isn’t wasted effort. Setting up proper steel production will likely be tomorrow’s priority.",
+    "I also discovered a new technology: Crusher. It appears to improve the iron processing recipe and, more importantly, produces stone as a byproduct. That could be the breakthrough I need for sustainable stone supply — but it requires steel. Another reason to prioritize steel production next."
+  ],
+  "status": {
+    "resource": "Iron and copper stabilized; stone partially automated but still insufficient; wood low.",
+    "power": "Stable.",
+    "production": "Coke and carbolic oil online; ash fully centralized; byproducts accumulating.",
+    "science": "Additional Chunks and Steel researched; preparing to research Crusher.",
+    "defense": "Perimeter secured but lightly fortified; no major breaches."
+  },
+  "todo": [
+    "Set up steel production using coke.",
+    "Research and implement Crusher technology.",
+    "Chop wood and mine rocks to replenish stockpile.",
+    "Continue to reinforce weak points in the perimeter."
+  ],
+  "youtube": {
+	"raw": "https://youtu.be/31lFWSIqPOg",
+	"edited": ""
+  }
+}
