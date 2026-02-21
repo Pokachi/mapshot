@@ -1,0 +1,38 @@
+{
+  "id": 13,
+  "location": "Nauvis - Crash Site - Southern Iron Deposit",
+  "date": "Day 13",
+  "time": "Noon",
+  "summary": [
+    "Today I tore down the southern iron smelting array. It had only been running for a few days, and already I’m dismantling it for something better. It feels wasteful, but upgrading to the jaw crusher recipe should be worth it in the long run.",
+    "Jaw crushers are expensive — painfully so. I knew that yesterday, but it hit harder in practice. I was only able to get three online today. The design calls for fifteen, but that will have to wait.",
+    "They also consume an alarming amount of power. Each crusher can draw up to 1.03MW. Our burner turbines are only 35% efficient and cap at 2MW output each, so scaling crushers meant expanding both turbines and fuel processing. Infrastructure to support infrastructure — again.",
+    "Although the blueprint supports 15 crushers, realistically I’ll scale to five for now. Ironically, after all this rebuilding, we are currently producing less iron plate than before. I’m hoping the efficiency gains and stone byproduct will justify this temporary regression.",
+    "The intended ratio is 3 miners : 1 jaw crusher : 3 stone furnaces. Five crushers output 450 processed iron ore per minute — half a yellow belt — which is why the full design is 15 miners to 5 crushers to 15 furnaces.",
+    "The stone output from the jaw crushers is actually impressive — better than the dedicated stone miners at the moment. I don’t think I’ll need to mine rocks manually for a while. That alone feels like a small victory.",
+    "I also dismantled the furnace array at the starting iron patch. The remaining 33% of that deposit will now be dedicated entirely to steel production.",
+    "Steel production, however, drains wood at an uncomfortable rate. Fortunately, the Steel Pickaxe upgrade is carrying its weight. I’m able to keep up with the wood consumption through faster tree cutting, but it’s a constant background task.",
+    "Interestingly, I’ve started noticing a natural pattern around the base: the north and east sides are dense with forests, while the south and west are rock-heavy. I couldn’t have planned it better if I tried. Wood to one side, stone to the other — I may have gotten lucky with this crash site.",
+    "Steel production revealed another issue: coal gas. We’re producing it, but not consuming enough of it to keep coke production flowing. Once coal gas storage fills, the entire chain stalls. I could convert coal gas into ash, but that feels like a last resort.",
+    "Ash storage continues to grow, though I did finish researching Ash Separation today. Tomorrow I’ll see if that finally gives ash a productive purpose.",
+    "On a less industrial note: today I reached 1000 Level 1 common spitter kills. Not exactly the milestone I wanted to celebrate."
+  ],
+  "status": {
+    "resource": "Iron temporarily reduced during crusher transition; wood strained but sustainable; stone improving via crushers.",
+    "power": "Strained; expanded burner turbines to support jaw crushers.",
+    "production": "3 jaw crushers online (design supports 15); starting iron redirected to steel.",
+    "science": "Ash Separation researched.",
+    "defense": "Holding, though combat intensity increasing."
+  },
+  "todo": [
+    "Scale jaw crushers to 5 units.",
+    "Implement Ash Separation to reduce storage buildup.",
+    "Stabilize iron output after crusher transition.",
+	"Continue to chop wood.",
+    "Continue to reinforce weak points in the perimeter."
+  ],
+  "youtube": {
+	"raw": "https://youtu.be/w3RlPvaitek",
+	"edited": ""
+  }
+}
