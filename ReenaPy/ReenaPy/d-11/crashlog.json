@@ -1,0 +1,34 @@
+{
+  "id": 12,
+  "location": "Nauvis - Crash Site - Copper Furnace Array",
+  "date": "Day 12",
+  "time": "Noon",
+  "summary": [
+    "Steel finally came online today. It requires wood to produce, which adds yet another demand to an already stretched resource, but it was absolutely worth it.",
+    "With enough steel stockpiled, I researched the Steel Pickaxe. The difference is immediate and noticeable. Mining rocks and chopping trees feels almost effortless compared to before. I spent most of the day taking advantage of it, gathering large amounts of stone and wood.",
+    "Even though science, steel production, and water treatment all consume wood, I still managed to rebuild a healthy log stockpile. Stone reserves are looking solid again as well. I may continue over-mining slightly just to create a buffer.",
+    "I also completed research on the Crusher. Unfortunately, the machines are extremely expensive — 160 stone, 606 iron plates, 60 steel plates, and 452 copper plates per unit. On top of that, I need to properly design a jaw crusher layout before committing resources. That will likely be tomorrow’s main task.",
+    "Next research target is Ash Separation. Our centralized ash storage is growing to uncomfortable levels. Hopefully this technology will finally give ash a meaningful purpose instead of just being waste.",
+    "One important observation: the starting iron patch is down to 33% remaining. I’m considering dedicating it exclusively to steel production and routing the southern iron deposit into the logistics mall instead — after implementing the jaw crushers.",
+    "The jaw crusher upgrade is significant. It improves the iron recipe from 1 plate per 8 ore to 1 plate per 5 ore, and it produces stone as a byproduct. That’s efficiency on both fronts — more iron and supplemental stone. It could fundamentally rebalance the factory."
+  ],
+  "status": {
+    "resource": "Stone and wood stabilized; starting iron patch at 33%.",
+    "power": "Stable.",
+    "production": "Steel online; preparing for jaw crusher integration.",
+    "science": "Steel pickaxe and Crusher researched; Ash Separation next.",
+    "defense": "Holding steady."
+  },
+  "todo": [
+    "Design and construct jaw crusher layout.",
+    "Research Ash Separation.",
+    "Re-route starting iron to steel-only production.",
+    "Connect southern iron to logistics mall (post-crusher).",
+    "Continue stockpiling stone and wood as buffer.",
+    "Continue to reinforce weak points in the perimeter."
+  ],
+  "youtube": {
+	"raw": "https://youtu.be/EeHfJWyNQis",
+	"edited": ""
+  }
+}
