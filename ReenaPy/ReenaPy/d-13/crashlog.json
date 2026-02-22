@@ -1,0 +1,35 @@
+{
+  "id": 14,
+  "location": "Nauvis - Crash Site - Fuel Processing Station",
+  "date": "Day 14",
+  "time": "Noon",
+  "summary": [
+    "The reduced iron plate throughput did end up biting me for a while. There was noticeable downtime across the factory, but instead of letting the time go to waste, I used it to chop trees and repair damaged walls. Not ideal progress, but not a total loss either.",
+    "I successfully scaled the jaw crushers to five units today. As expected, the power draw jumped significantly — we’re now consuming around 6MW combined. That immediately overwhelmed our fuel processor and burner turbine.",
+    "To compensate, I had to scale the fuel processor, which in turn required scaling raw coal production again. The processor consumes coal at an absurd rate — six inserters can barely keep up. And with that level of throughput, it’s producing ash at an equally absurd rate.",
+    "I’m fairly certain the fuel processors alone are outputting nearly a full yellow belt of ash. That means my current ash belt design probably can’t sustain long-term growth. A redesign is likely inevitable, though it’s not today’s top priority.",
+    "The real goal was implementing Ash Separation. Unfortunately, that stalled due to steel bottleneck yet again — and once again, the underlying issue is coal gas.",
+    "Coal gas keeps backing up because nothing is consuming it. This time, however, I found a partial solution: Fluid Mining. The technology allows me to consume coal gas to mine aluminum and tin.",
+    "I set up aluminum fluid mining since the piping layout was simpler. I don’t actually need aluminum right now, but converting coal gas into solid plates is far easier to store. A fluid tank holding 2700 units of coal gas costs 116 iron plates and 6 copper plates. An iron chest holding 800 aluminum plates costs just 8 iron plates — and those 800 plates represent 80000 units of coal gas consumed. Much more efficient from a storage standpoint.",
+    "Of course, this meant expanding territory again to reach aluminum ore. We’re now down to 9 chunk points.",
+    "It feels like solving one problem just creates another. I spend more time stabilizing systems than expanding them. Still, with coal gas partially managed and iron plate mostly stabilized, I think we’re finally in a position to craft a proper separator and begin addressing the ash situation seriously."
+  ],
+  "status": {
+    "resource": "Iron mostly stabilized; coal extraction expanded; fluid mining for aluminum active.",
+    "power": "Heavy draw (~6MW from crushers); fuel processing expanded to compensate.",
+    "production": "5 jaw crushers online; ash separation pending.",
+    "science": "Fluid Mining researched.",
+    "defense": "Repaired and holding."
+  },
+  "todo": [
+    "Implement Ash Separation infrastructure.",
+    "Monitor ash belt throughput and redesign if necessary.",
+    "Monitor coal gas consumption.",
+	"Continue to chop wood.",
+	"Continue to reinforce weak points in the perimeter."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/S5XCUk7mjfw",
+    "edited": ""
+  }
+}
