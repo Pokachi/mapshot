@@ -1,0 +1,34 @@
+{
+  "id": 15,
+  "location": "Nauvis - Crash Site - Ash Processing Sector",
+  "date": "Day 15",
+  "time": "Noon",
+  "summary": [
+    "Today was almost entirely dedicated to ash processing. I somehow managed to scrape together enough materials to craft two solid separators and get them running.",
+    "Of course, nothing comes easy. Each separator consumes up to 1.55MW — even more than a jaw crusher. That meant expanding burner turbines and fuel processors yet again. More power demand, more coal burned, more ash created.",
+    "At this point, the fuel processors alone are outputting a full yellow belt of ash. I had to widen the ash belt coming from fuel processing just to prevent backup.",
+    "The good news is that separators consume more ash than they generate to operate, so they are still net positive. Even so, we’re not ash neutral yet. 2 separators processe roughly 1.2k ash per minute, but total ash generation is around 2k per minute. I’ll likely need two more separators just to break even.",
+    "On a brighter note, iron processing via jaw crushers is now producing more stone than I actually need. I’ve started using excess stone bricks to pave the areas where I move most frequently. Movement feels noticeably faster — small quality-of-life improvement, but satisfying.",
+    "Research-wise, I completed Glasswork today. Unfortunately, I don’t have the materials to build the infrastructure. A crystal mine alone costs 128 stone bricks, 80 stone, 1.6k iron plates, 20 steel plates, and 1.2k copper plates. Glasswork infrastructure requires another 30 stone bricks, 120 stone, 507 stone plates, and 454 copper plates. Those numbers are out of reach for now.",
+    "Given the ongoing ash situation, I may pause science again tomorrow. The base still requires constant manual intervention, and the systems feel fragile.",
+    "We also suffered a small breach today. A section of belts was destroyed, but fortunately the base is still compact enough that I could respond quickly. No major infrastructure was lost."
+  ],
+  "status": {
+    "resource": "Stable.",
+    "power": "Expanded.",
+    "production": "2 solid separators online; ash belt expanded; paving underway.",
+    "science": "Glasswork researched.",
+    "defense": "Minor breach; quickly contained."
+  },
+  "todo": [
+    "Construct 2 additional solid separators to reach ash neutrality.",
+    "Monitor fuel processor ash output and belt throughput.",
+    "Stabilize base to reduce manual intervention.",
+	"Continue to chop wood.",
+	"Continue to reinforce weak points in the perimeter."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/s-6e62Kdq7E",
+    "edited": ""
+  }
+}
