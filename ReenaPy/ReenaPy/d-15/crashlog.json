@@ -1,0 +1,34 @@
+{
+  "id": 16,
+  "location": "Nauvis - Crash Site - Ash Processing Sector",
+  "date": "Day 16",
+  "time": "Noon",
+  "summary": [
+    "Another day dominated by ash processing. I completed the goal of adding two more solid separators, bringing the total up to four and significantly increasing our ash consumption capacity.",
+    "Unfortunately, power demand continues to climb. I already expanded the burner turbines and fuel processors again, but it still doesn’t feel sufficient. Every time I add processing capacity, I also add more strain to the grid.",
+    "The ash belt likely isn’t balanced properly either. When ash backs up at the fuel processors, power output drops. When power drops, separators slow down. When separators slow down, ash backs up even more. It’s a feedback loop — a full death spiral if left unchecked.",
+    "Soot from ash processing is also starting to accumulate. I don’t really want to design a proper soot handling solution yet, so for now I’m just storing it in boxes. It’s not elegant, but it’s better than stockpiling raw ash and risking total system collapse.",
+    "Tomorrow will probably be another round of redesigning and rethinking the ash handling system.",
+    "On a more positive note, I successfully set up crystal mining and glassworks today. They consumed nearly all of our coal gas backlog. I did void about half of the stored coal gas before bringing the system online, but at least the production chain is now moving.",
+    "Glass itself isn’t immediately useful, but it let's me craft Nurseries through the Botany technology, which I also researched today. The Nursery doesn’t seem useful right now, but I have a feeling it will become important later.",
+    "I cleared a massive forest to the north today. Wood continues to rely entirely on manual chopping, and it’s becoming increasingly time-consuming. Hopefully automation for wood isn’t too far away.",
+    "Tonight was rough. Several breaches occurred, though none resulted in major factory damage. I’ve been getting lucky with these close calls. Hopefully that luck holds."
+  ],
+  "status": {
+    "resource": "Stable.",
+    "power": "Strained; frequent instability due to ash belt backup.",
+    "production": "4 solid separators active; crystal mining and glassworks online.",
+    "science": "Botany researched.",
+    "defense": "Multiple breaches; no major losses."
+  },
+  "todo": [
+    "Redesign ash belt to prevent feedback loop.",
+    "Stabilize power production.",
+	"Continue to chop wood.",
+    "Reinforce vulnerable defensive sections."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/4G3dsfRYGus",
+    "edited": ""
+  }
+}
