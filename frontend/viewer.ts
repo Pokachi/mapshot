@@ -206,8 +206,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 	
 	var days = [];
 	
-	var num_days = parseInt((await fetch("/latest/ReenaPy")
-        .then(resp => resp.json()))["encoded_path"].match(/\d+/)[0]);
+	var num_days = parseInt(config["encoded_path"].match(/\d+/)[0]);
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
