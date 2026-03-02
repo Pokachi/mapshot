@@ -140,6 +140,18 @@ export interface ShotsJSONInfo {
     ticks_played: number;
 }
 
+export interface ChunkStat {
+    biter_killed: number;
+	total_biter_killed: number;
+	entities_lost: number;
+	total_entities_lost: number;
+}
+
+export interface ChunkStats {
+  chunks: Record<string, ChunkStat>
+  total: ChunkStats
+}
+
 export function parseNumber(v: any, defvalue: number): number {
     const c = Number(v);
     return isNaN(c) ? defvalue : c;
@@ -183,4 +195,49 @@ export function renderCrashLog(data: CrashLog): string {
   </ul>
 </div>
 `.trim();
+}
+
+export function computeHeat(chunk: ChunkStat) {
+  return (
+    chunk.biter_killed +
+    (chunk.entities_lost * 5) // entities_lost weights 5
+  )
+}
+
+export function chunkToWorld(chunkX: number, chunkY: number) {
+  return {
+    x: chunkX * 32 + 16,
+    y: chunkY * 32 + 16
+  }
+}
+
+export function buildCombatHeatPoints(stats: ChunkStats): [number, number, number][] {
+    const points: [number, number, number][] = [];
+
+    for (const [key, chunk] of Object.entries(stats.chunks)) {
+        const [, chunkXStr, chunkYStr] = key.split(':');
+        const chunkX = Number(chunkXStr);
+        const chunkY = Number(chunkYStr);
+
+        const heat = computeHeat(chunk);
+        if (heat <= 0) continue;
+
+        //const { x, y } = chunkToWorld(chunkX, chunkY);
+
+		// Each chunk is 32x32 tiles; create a point for each tile
+        //for (let tileX = 0; tileX < 32; tileX += 8) {
+        //    for (let tileY = 0; tileY < 32; tileY += 8) {
+        //        const worldX = chunkX * 32 + tileX;
+        //        const worldY = chunkY * 32 + tileY;
+
+		points.push([-chunkY, chunkX, heat]); // negative Y for Leaflet
+        //    }
+        //}
+        // Leaflet heat expects [lat, lng, intensity]
+        //points.push([-y, x, heat]); // Negative Y because your worldToLatLng flips Y
+    }
+
+    // Normalize heat so max intensity = 1
+    const max = Math.max(...points.map(p => p[2]), 1);
+    return points.map(([lat, lng, h]) => [lat, lng, h / max]);
 }

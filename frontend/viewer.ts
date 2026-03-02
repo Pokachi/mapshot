@@ -1,4 +1,5 @@
 import * as L from "leaflet";
+import "leaflet.heat";
 import "./boxzoom/leaflet-control-boxzoom-src.js";
 import "./zoomslider/L.Control.Zoomslider.js";
 import "./leaflet_select/leaflet.control.select.js";
@@ -58,6 +59,8 @@ class Surface {
     trainLayer: L.LayerGroup;
     tagsLayer: L.LayerGroup;
     debugLayer: L.LayerGroup;
+    combatLayer: L.LayerGroup;
+	combatHeatLayer?: any; // Combat heatmap
 
     constructor(config: common.MapshotConfig, si: common.MapshotSurfaceJSON) {
         this.surfaceInfo = si;
@@ -73,7 +76,7 @@ class Surface {
             maxNativeZoom: si.zoom_max,
             minNativeZoom: si.zoom_min,
             minZoom: si.zoom_min - 4,
-            maxZoom: si.zoom_max + 4,
+            maxZoom: si.zoom_max + 1,
         });
 
         // Layer: train stations
@@ -129,6 +132,27 @@ class Surface {
             L.marker(this.worldToLatLng(si.world_max.x, si.world_max.y), { title: `${si.world_max.x}, ${si.world_max.y}` }),
         );
         this.debugLayer = L.layerGroup(debugLayers);
+		this.combatLayer = L.layerGroup();
+    }
+
+	setCombatStats(stats: common.ChunkStats) {
+        const points = common.buildCombatHeatPoints(stats);
+        if (this.combatHeatLayer) {
+            this.combatHeatLayer.setLatLngs(points);
+        } else {
+            this.combatHeatLayer = (L as any).heatLayer(points, {
+                radius: 64,
+                blur: 64,
+                maxZoom: 6,
+                gradient: {
+                    0.0: '#0000ff',
+                    0.3: '#00ffff',
+                    0.5: '#00ff00',
+                    0.7: '#ffff00',
+                    1.0: '#ff0000',
+                },
+            }).addTo(this.combatLayer); // or a separate layer if you want toggle
+        }
     }
 
     worldToLatLng(x: number, y: number) {
@@ -156,7 +180,7 @@ class Surface {
 
 }
 
-async function run(config: common.MapshotConfig, info: common.MapshotJSON, crashlog:common.CrashLog | null) {
+async function run(config: common.MapshotConfig, info: common.MapshotJSON, crashlog:common.CrashLog | null, chunk_stats:common.ChunkStats | null) {
     const layerControl = L.control.layers();
 
     const surfaces: Surface[] = [];
@@ -172,13 +196,16 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
     const trainLayer = L.layerGroup();
     const tagsLayer = L.layerGroup();
     const debugLayer = L.layerGroup();
+    const combatLayer = L.layerGroup();
     layerControl.addOverlay(trainLayer, "Train stations");
     layerControl.addOverlay(tagsLayer, "Tags");
     layerControl.addOverlay(debugLayer, "Debug");
+    layerControl.addOverlay(combatLayer, "Combat");
     const overlayKeys = new Map<L.Layer, string>();
     overlayKeys.set(trainLayer, "lt");
     overlayKeys.set(tagsLayer, "lg");
     overlayKeys.set(debugLayer, "ld");
+    overlayKeys.set(combatLayer, "lc");
 
     const updateOverlays = (s: Surface) => {
         trainLayer.clearLayers();
@@ -187,6 +214,11 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
         tagsLayer.addLayer(s.tagsLayer);
         debugLayer.clearLayers();
         debugLayer.addLayer(s.debugLayer);
+        combatLayer.clearLayers();
+        combatLayer.addLayer(s.combatLayer);
+		if (chunk_stats != null) {
+			s.setCombatStats(chunk_stats);
+		}
     }
 
     const mymap = L.map('content', {
@@ -381,7 +413,22 @@ function load2(config: common.MapshotConfig, info: common.MapshotJSON) {
     })
 	.then((log: common.CrashLog | null) => {
 		console.log("CrashLog", log);
-		run(config, info, log);
+		load3(config, info, log);
+	});
+}
+
+function load3(config: common.MapshotConfig, info: common.MapshotJSON, crashlog: common.CrashLog | null) {
+	fetch(config.encoded_path + 'chunk_stats.json')
+	.then(resp => {
+		if (resp.status === 404) {
+			console.warn('File not found: chunk_stats.json');
+			return null; // or return a default value
+		}
+		return resp.json();
+    })
+	.then((chunk_stats: common.ChunkStats | null) => {
+		console.log("ChunkStats", chunk_stats);
+		run(config, info, crashlog, chunk_stats);
 	});
 }
 
