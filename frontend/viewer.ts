@@ -208,7 +208,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 	
 	var num_days = 0;
 	
-	if (config !== undefined && config != null) {
+	if (config !== undefined && config != null && config["encoded_path"] != null) {
 		parseInt(config["encoded_path"].match(/\d+/)[0]);
 	}
 	days.push({label: "Day 0", value: "d-0"});
