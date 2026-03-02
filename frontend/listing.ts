@@ -11,7 +11,7 @@ class FactorioTicks extends LitElement {
         if (!this.ticks) {
             return html`Played: unknown`;
         }
-        let gameDays = Math.trunc(this.ticks / 201600); // using a mod to make the game 8x longer
+        let gameDays = Math.trunc(this.ticks / 216000); // using a mod to make the game 8x longer
         let playedHours = Math.trunc(this.ticks / (60 * 3600));
         return html`<span>Played: ${playedHours} hours; Game: ${gameDays} days; Ticks: ${this.ticks}</span>`;
     }
@@ -29,7 +29,7 @@ class FactorioRelTicks extends LitElement {
         if (!this.ticks || !this.refticks) {
             return html`unknown`;
         }
-        let gameDays = Math.trunc(this.ticks / 25000);
+        let gameDays = Math.trunc(this.ticks / 216000);
         let playedHours = Math.trunc(this.ticks / (60 * 3600));
         let diff = this.refticks - this.ticks;
 

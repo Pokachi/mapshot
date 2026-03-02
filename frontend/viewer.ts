@@ -206,11 +206,11 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 	
 	var days = [];
 	
-	var num_days = 0;
+	const saveNameRegex = /\/data\/(.+)\/d-\d+\//;
+	var saveName = config["encoded_path"]?.match(saveNameRegex)?.[1];
 	
-	if (config !== undefined && config != null && config["encoded_path"] != null) {
-		num_days = parseInt(config["encoded_path"].match(/\d+/)![0]);
-	}
+	var num_days = parseInt((await fetch("/latest/" + saveName)
+        .then(resp => resp.json()))["encoded_path"].match(/\d+/)[0]);
 	days.push({label: "Day 0", value: "d-0"});
 	var defaultValue = "d-" + num_days;
 	
@@ -253,7 +253,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		onSelect: function (newDay:any) {
 			//console.log(newDay)
 			let result = window.location.href.replace(/d-\d+/, newDay);
-			window.location.href = result.replace(/l=ReenaPy/, "path=/data/ReenaPy/" + newDay + "/");
+			window.location.href = result.replace(new RegExp(`l=${saveName}`), "path=/data/" + saveName + "/" + newDay + "/");
 		},
 		})
 		
