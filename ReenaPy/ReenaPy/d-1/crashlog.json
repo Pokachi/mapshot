@@ -2,32 +2,32 @@
   "id": 2,
   "location": "Nauvis - Crash Site - Starter Raw Coal Deposit",
   "date": "Day 1",
-  "time": "Noon",
+  "time": "Dawn",
   "summary": [
     "The deposits here are abundant, but nothing about this planet is easy. Coal burns filthy and leaves ash everywhere, clogging machines almost as soon as they begin running. Copper refuses to cooperate unless I feed it water. Every step forward demands another layer of infrastructure. Nothing is simple extraction — everything is dependency.",
-    "With only a single mining drill, progress feels painfully slow. The drill devours raw coal and wood fast. Most of the day was spent breaking rocks and chopping trees just to keep the miner alive. It’s a brutal loop — mining fuel so the drill can mine materials so I can build more drills.",
+    "Even the ground itself resists me. The soil on this planet isn’t suitable for proper construction. Structures sink, shift, or refuse placement unless I lay down a stone foundation first. Before I can build industry, I have to build the ground it stands on.",
+    "With only a single mining drill, progress feels painfully slow. The drill devours raw coal fast. Most of the day was spent breaking rocks and chopping trees just to keep the miner alive. It’s a brutal loop — mining fuel so the drill can mine materials so I can build more drills.",
     "Somehow, I managed to produce enough iron to fabricate pipes and run water to the copper veins. That moment — watching water finally flow — felt like real progress. By nightfall I had miners running on coal, copper, and iron. Not efficiently. Not cleanly. But running.",
-    "When darkness fell, the creatures came again. Giant insectoid things — relentless and angry. They attacked in waves. I held the line, but only barely. I built a few makeshift mini turrets and loaded them with wooden magazines. I even boxed them in with flimsy wooden fences — crude and probably flammable, but it made me feel like I was building a wall instead of just surviving. The turrets are weak and don’t hit very hard, but they fire consistently. For now, that’s enough.",
-	"The fighting never stopped since it started. I counted without meaning to: 68 level-one common spitters, 1 small snapper, 5 level-one common biters, 1 level-one acidic spitter, 3 level-one laser biters, 1 level-one fast spitter… and 1 level-one nuclear biter.",
-    "The nuclear biter was something else entirely. I saw a white flash — just a split second of unnatural brightness — and then an explosion tore through my infrastructure. Twenty-four water pipes gone instantly. I don’t have a countermeasure for that kind of threat yet. I’m fighting with wood and scrap while they bring weapons I don’t understand.",
-    "The damage could have been worse. Pipes are cheap. I replaced them before the system collapsed. But throughout the first day, I also lost 2 mini turrets and 18 flimsy wooden fences. Ten wooden magazine clips were spent holding the line.",
-    "There were moments during the night where I nearly died. More than once I was forced to fight them by hand when ammunition ran low or a turret ran dry. Claws scraped across my armor. Acid hissed against metal. I could hear my own breathing inside the helmet, fast and uneven. I survived by inches.",
-    "Morning brought a fragile calm. The miners are running. The pipes are patched. The fences are rebuilt. I’m still here. The attacks eased, though they haven’t stopped entirely. I used the brief calm to sketch out better miner placements and future layouts in the dirt. If I’m going to survive here, I can’t just work harder. I have to work smarter."
+    "When darkness fell, the creatures came. Giant insectoid things — relentless and angry. They attacked in waves. I held the line, but only barely. I built a few makeshift mini turrets and loaded them with wooden magazines. I even boxed them in with flimsy wooden fences — crude and probably flammable, but it made me feel like I was building a wall instead of just surviving. The turrets are weak and don’t hit very hard, but they fire consistently. For now, that’s enough.",
+    "The fighting never stopped once it began. I counted without meaning to: 64 level-one common biters, 6 level-one common spitters, 1 level-one acidic spitter, 1 level-one fast spitter, 1 level-one inferno spitter, 1 level-one spawner spitter, and 1 level-one wasp spitter.",
+    "Throughout the first night, I lost 8 flimsy wooden fences and burned through 19 wooden magazines just to keep the perimeter intact. The damage could have been worse, but the flimsy wooden fences were cheap and I replaced them before the Defense collapsed.",
+	"There were moments during the night where I nearly died. More than once I was forced to fight them by hand when ammunition ran low or a turret ran dry. Claws scraped across my armor. Acid hissed against metal. I could hear my own breathing inside the helmet, fast and uneven. I survived by inches.",
+    "Morning brought a fragile calm. The miners are running. The fences are patched. The attacks have eased, though they haven’t stopped entirely. I used the brief quiet to sketch out better miner placements and future layouts. If I’m going to survive here, I can’t just work harder. I have to work smarter."
   ],
   "status": {
     "resource": "Claimed 500k Iron deposits, 400k Copper deposits, and 18.68M Coal deposits.",
     "power": "Temporary burner turbine to power offshore pump.",
     "production": "Minimal iron and copper production with constant manual maintenance.",
     "science": "N/A",
-    "defense": "Improvised mini turrets with wooden magazines; sustained structural losses but perimeter intact."
+    "defense": "Improvised mini turrets with wooden magazines; minor structural losses but perimeter intact."
   },
   "todo": [
     "Expand copper and iron mining.",
     "Finish setting up defense perimeters.",
-	"Setup basic coal delivery automation."
+    "Setup basic coal delivery automation."
   ],
   "youtube": {
-    "raw": "",
+    "raw": "https://youtu.be/_hAnKgGr3PE",
     "edited": ""
   }
 }
