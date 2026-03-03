@@ -97,7 +97,7 @@ export interface MapshotSurfaceJSON {
     // The name of the game surface that was rendered.
     surface_name: string,
     // The in-game index of that surface.
-    surface_idx: number,
+    surface_idx: string,
 
     // Prefix for where to find the tile file.
     file_prefix: string,
@@ -204,18 +204,15 @@ export function computeHeat(chunk: ChunkStat) {
   )
 }
 
-export function chunkToWorld(chunkX: number, chunkY: number) {
-  return {
-    x: chunkX * 32 + 16,
-    y: chunkY * 32 + 16
-  }
-}
-
-export function buildCombatHeatPoints(stats: ChunkStats): [number, number, number][] {
+export function buildCombatHeatPoints(stats: ChunkStats, surface_idx: string): [number, number, number][] {
     const points: [number, number, number][] = [];
 
     for (const [key, chunk] of Object.entries(stats.chunks)) {
-        const [, chunkXStr, chunkYStr] = key.split(':');
+        const [chunkIndex, chunkXStr, chunkYStr] = key.split(':');
+		surface_idx = surface_idx.replace("_night", "");;
+		if (Number(chunkIndex) != Number(surface_idx)) {
+			continue;
+		}
         const chunkX = Number(chunkXStr);
         const chunkY = Number(chunkYStr);
 

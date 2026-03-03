@@ -75,7 +75,7 @@ class Surface {
             noWrap: true,
             maxNativeZoom: si.zoom_max,
             minNativeZoom: si.zoom_min,
-            minZoom: si.zoom_min - 4,
+            minZoom: si.zoom_min - 1,
             maxZoom: si.zoom_max + 1,
         });
 
@@ -136,7 +136,7 @@ class Surface {
     }
 
 	setCombatStats(stats: common.ChunkStats) {
-        const points = common.buildCombatHeatPoints(stats);
+        const points = common.buildCombatHeatPoints(stats, this.surfaceInfo.surface_idx);
         if (this.combatHeatLayer) {
             this.combatHeatLayer.setLatLngs(points);
         } else {
@@ -189,7 +189,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
         const s = new Surface(config, si);
         surfaces.push(s);
         layerControl.addBaseLayer(s.baseLayer, si.surface_name);
-        surfaceByKey.set(s.surfaceInfo.surface_idx.toString(), s);
+        surfaceByKey.set(s.surfaceInfo.surface_idx, s);
         surfaceByKey.set(s.surfaceInfo.surface_name, s);
     }
 
@@ -366,7 +366,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
         currentSurface = s;
         updateOverlays(currentSurface);
         const queryParams = new URLSearchParams(window.location.search);
-        queryParams.set("s", currentSurface.surfaceInfo.surface_idx.toString());
+        queryParams.set("s", currentSurface.surfaceInfo.surface_idx);
         history.replaceState(null, "", "?" + queryParams.toString());
     });
 
@@ -446,7 +446,7 @@ function load(config: common.MapshotConfig) {
                 const raw = info as any;
                 info.surfaces = [{
                     surface_name: "nauvis",
-                    surface_idx: 1,
+                    surface_idx: "1",
                     file_prefix: "zoom_",
 
                     tile_size: raw.tile_size,
