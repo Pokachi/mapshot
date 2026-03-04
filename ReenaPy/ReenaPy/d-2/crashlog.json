@@ -1,0 +1,33 @@
+{
+  "id": 3,
+  "location": "Nauvis - Crash Site - Copper Ore Deposit #1",
+  "date": "Day 2",
+  "time": "Dawn",
+  "summary": [
+    "Today I pushed the boundary outward and claimed a larger construction zone. With the extra space, I drafted a proper defensive perimeter blueprint — something structured, intentional. But blueprints are cheap. Materials are not. I don’t yet have the resources to fully realize it, so instead I placed key defensive positions on all sides. It’s a skeleton of a wall, not a fortress.",
+    "I exhausted my emergency chunk claim quota by midday. The territorial protocol is becoming a real limitation. I can feel the walls closing in — not from the biters, but from the system itself. I managed to start producing automation science packs and researched additional chunks, buying myself breathing room. But the expansion is slow, and every tile feels negotiated rather than owned.",
+    "The defenses are holding, but they are far from perfect. There are noticeable gaps between turrets, and I know it. Strangely, the biters prioritize the turrets nearly 90% of the time. It buys me space to move and repair, but at the cost of constant turret losses. The top-right corner of the perimeter is taking the worst of it. That section will need reinforcement soon.",
+    "The attacks are constant now. At night, stronger variants emerge — faster, more aggressive, more destructive. We killed well over 150 today before I stopped counting. Losses included two turrets, two dozen pipes, and a dozen wooden fences. Rebuilding is already starting to feel routine. That realization unsettles me more than the fighting.",
+    "Most of the structural damage came from a single nuclear biter. I saw the white flash first — then, for a split second, what looked like a mushroom cloud. The explosion wiped out much of the southern water pipeline feeding the copper mine, along with the turrets and walls guarding it. There is no countermeasure available to me. There won’t be for a long time. The only strategy is rapid reconstruction and redundancy.",
+    "On the logistical front, I successfully expanded coal extraction with more miners and automated coal delivery from the coal mine to both the copper and iron operations. The setup is temporary and inelegant, but it should hold for a few days. For the first time, fuel is moving without me.",
+	"I also expanded iron and copper extraction. More mining drills are now running, and I constructed a dedicated furnace stack to smelt copper ore directly into plates. I mirrored the setup for iron as well. It’s still primitive, but it finally resembles an actual production line instead of scattered machines barely surviving.",
+    "Science is crawling forward. The floral collector requires power, exposing another weakness — I still cannot craft electric poles. I had to physically move my single burner turbine and lone electric pole back and forth between the offshore pump and the collector. It was painfully slow. Automation science packs trickled into existence one batch at a time.",
+    "Stone is becoming a major constraint. The soil here demands stone foundation before proper construction, and science production consumes it as well. I mined a significant amount today, but it won’t be enough. Stone will define tomorrow."
+  ],
+  "status": {
+    "resource": "Expanded coal, copper and iron mining; stone becoming a bottleneck.",
+    "power": "Single burner turbine manually repositioned to power critical systems.",
+    "production": "Coal automated; copper and iron smelting established; science extremely slow.",
+    "science": "Automation science initiated; additional chunks researched.",
+    "defense": "Perimeter blueprint drafted; top-right corner under heavy pressure; nuclear threat present."
+  },
+  "todo": [
+    "Continue improving base defense.",
+    "Reinforce top-right perimeter.",
+    "Mine more rocks for stone."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/oaHd43gyjO0",
+    "edited": ""
+  }
+}
