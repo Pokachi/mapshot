@@ -179,7 +179,7 @@ export function renderCrashLog(data: CrashLog): string {
   <strong>Location: </strong>${data.location}<br/>
   <strong>Date: </strong>${data.date}<br/>
   <strong>Time: </strong>${data.time}<br/>
-  <h3>Summary:</h3>
+  <h3>Diary:</h3>
   ${data.summary.map(p => `<p>${p}</p>`).join("")}
   <h3>Status Snapshot:</h3>
   <ul>
