@@ -2,7 +2,7 @@
   "id": 4,
   "location": "Nauvis - Crash Site - Iron Ore Deposit #2",
   "date": "Day 3",
-  "time": "Noon",
+  "time": "Dawn",
   "summary": [
     "Today was mostly spent gathering stone and expanding the perimeter. I managed to research enough additional chunk claim points to lay out a 7x9 rectangle for the base perimeter. I still don’t have enough points to claim the interior fully, but it’s a decent starting size.",
     "Turrets and walls are up on all sides, though gaps remain. I’d like to think I’m relatively safe for now. Maybe one day I’ll have enough resources to complete a full defensive perimeter.",
@@ -25,6 +25,7 @@
     "Design new fuel processing and burner generator layout.",
     "Continue mining stone for foundations and science.",
     "Reinforce defensive gaps as resources allow.",
+	"Cleanup trees and rocks inside perimeter.",
 	"Continue science"
   ],
   "youtube": {
