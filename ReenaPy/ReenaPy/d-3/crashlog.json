@@ -1,0 +1,34 @@
+{
+  "id": 4,
+  "location": "Nauvis - Crash Site - Iron Ore Deposit #2",
+  "date": "Day 3",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly spent gathering stone and expanding the perimeter. I managed to research enough additional chunk claim points to lay out a 7x9 rectangle for the base perimeter. I still don’t have enough points to claim the interior fully, but it’s a decent starting size.",
+    "Turrets and walls are up on all sides, though gaps remain. I’d like to think I’m relatively safe for now. Maybe one day I’ll have enough resources to complete a full defensive perimeter.",
+    "Resource-wise, like I mentioned, A lot of stone mining was required — both for the perimeter foundation and to keep science running. I lost count of how many rocks I chipped today, but it was significant. Thankfully, the southern and western sides of the crash site are rich in stone, so luck is on my side there.",
+    "Science made substantial progress. Beyond the additional chunk research, I completed Fuel Processing, Electricity, and Basic Water Processing.",
+    "Fuel Processing allows me to convert raw coal into processed fuel with a 10% energy boost. Raw coal is weak at 1.5MJ and burns fast, producing a lot of ash. Processed fuel doesn’t produce ash when burned, which helps centralize ash production, but unfortunately, only burner generators can use it, so raw coal still powers most machines.",
+    "Electricity was a major milestone. I can now craft small electric poles, eliminating the need to manually relocate the burner generator. I can also produce additional burner generators, so losing the only one won’t strand me.",
+    "Basic Water Processing converts raw water into clean water suitable for delicate machines. I don’t have an immediate application yet, but future plans include boilers for steam production.",
+    "In addition, I expanded iron production. A second iron furnace stack is now online, supported by new miners dedicated to feeding it. This should help meet growing demand for iron plates in both production and science.",
+    "Tomorrow’s goal will likely be designing a new setup for fuel processing and burner generators to improve efficiency and centralize operations."
+  ],
+  "status": {
+    "resource": "Stone stockpile stable but constantly being consumed. Iron extraction expanded.",
+    "power": "Single burner generator.",
+    "production": "Expanded iron production with 2 furnace stacks running.",
+    "science": "Fuel Processing, Electricity, Basic Water Processing researched.",
+    "defense": "Claimed 7x9 perimeter chunks; Perimeter turrets and walls established; gaps remain but manageable."
+  },
+  "todo": [
+    "Design new fuel processing and burner generator layout.",
+    "Continue mining stone for foundations and science.",
+    "Reinforce defensive gaps as resources allow.",
+	"Continue science"
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/7lvihe6jNxg",
+    "edited": ""
+  }
+}
