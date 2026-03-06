@@ -143,7 +143,7 @@ class Surface {
             this.combatHeatLayer = (L as any).heatLayer(points, {
                 radius: 64,
                 blur: 64,
-                maxZoom: 5,
+                maxZoom: 4,
                 gradient: {
                     0.0: '#0000ff',
                     0.3: '#00ffff',

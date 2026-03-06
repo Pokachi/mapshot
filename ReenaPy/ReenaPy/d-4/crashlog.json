@@ -1,0 +1,36 @@
+{
+  "id": 5,
+  "location": "Nauvis - Crash Site - Steam Sector",
+  "date": "Day 4",
+  "time": "Dawn",
+  "summary": [
+    "Today was mostly spent setting up the infrastructure I researched yesterday. I developed a blueprint capable of supporting up to 8 fuel processors and 8 burner turbines, providing a potential 16 MW of power once fully built. Though I'll likely only build them as they became necessary.",
+    "For now, I relocated the existing burner turbine and fuel processor closer to the coal mine to avoid running long transport belts across the base. This should make fuel logistics much simpler going forward.",
+    "I also set up 5 precipitation tanks to process raw water into clean water for more delicate machines. The clean water pipeline was extended north toward the burner turbine area so future machines can easily access it.",
+    "On the research side, I completed several new technologies: additional chunk claims, Fluid Handling, Steam Power, and Coal Processing.",
+    "Fluid Handling allows me to produce underground pipes, offshore water pumps, and tiny fluid tanks. The additional offshore pump capability is particularly important because it removes a previous failure condition — losing my only water pump would no longer cripple my survival.",
+    "Steam Power unlocks boilers that generate steam. Steam itself becomes important for the next technology I researched: Coal Processing.",
+    "Coal Processing provides the recipe for carbolic oil, which is required for automated stone mining. This should hopefully improve the current stone shortage I’ve been dealing with.",
+    "I still had to manually mine a large amount of stone today, but most of it has already been consumed by construction and research.",
+    "The additional chunk claim research allowed me to claim every chunk within the perimeter except the lake. That should be fine since I currently have no plans to build over the water.",
+    "Defense was rough tonight. Two nuclear biters attacked the southern perimeter during the night, destroying four turrets and roughly fifty walls. Later, a laser spitter managed to take out two additional turrets.",
+    "Despite the damage, the defenses did their job. None of the core infrastructure was harmed, and I was able to replace the destroyed turrets and walls quickly. All things considered, we were lucky."
+  ],
+  "status": {
+    "resource": "Stone reserves low but expected to improve once carbolic oil production begins.",
+    "power": "Fuel processor and burner turbine relocated; blueprint designed for future 16 MW power grid.",
+    "production": "Water purification infrastructure established with 5 precipitation tanks; clean water routed north.",
+    "science": "Additional chunk claims, Fluid Handling, Steam Power, and Coal Processing researched.",
+    "defense": "South perimeter suffered turret and wall losses from nuclear biter attack but defenses held."
+  },
+  "todo": [
+    "Build boilers and begin steam production.",
+    "Produce carbolic oil to unlock automated stone mining.",
+    "Repair and reinforce defenses.",
+	"Continue researching science"
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/5ECCK82kQU0",
+    "edited": ""
+  }
+}
