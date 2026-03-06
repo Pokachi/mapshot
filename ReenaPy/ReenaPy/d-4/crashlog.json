@@ -6,6 +6,9 @@
   "summary": [
     "Today was mostly spent setting up the infrastructure I researched yesterday. I developed a blueprint capable of supporting up to 8 fuel processors and 8 burner turbines, providing a potential 16 MW of power once fully built. Though I'll likely only build them as they became necessary.",
     "For now, I relocated the existing burner turbine and fuel processor closer to the coal mine to avoid running long transport belts across the base. This should make fuel logistics much simpler going forward.",
+    "To support the future fuel processors, I also expanded the coal mining operation. The increased coal supply should be enough to feed both the processors and the growing power demand.",
+    "With the increased coal processing, ash production is becoming more noticeable. I set up a temporary ash storage system to collect ash coming from the coal miners and the fuel processors to prevent clogging. It is not a permanent solution yet, but it keeps the machines from backing up.",
+    "I still need to connect the ash outputs from the iron and copper production lines to the same storage system so everything is consolidated in one place.",
     "I also set up 5 precipitation tanks to process raw water into clean water for more delicate machines. The clean water pipeline was extended north toward the burner turbine area so future machines can easily access it.",
     "On the research side, I completed several new technologies: additional chunk claims, Fluid Handling, Steam Power, and Coal Processing.",
     "Fluid Handling allows me to produce underground pipes, offshore water pumps, and tiny fluid tanks. The additional offshore pump capability is particularly important because it removes a previous failure condition — losing my only water pump would no longer cripple my survival.",
@@ -24,6 +27,7 @@
     "defense": "South perimeter suffered turret and wall losses from nuclear biter attack but defenses held."
   },
   "todo": [
+    "Connect iron and copper ash outputs to the central ash storage.",
     "Build boilers and begin steam production.",
     "Produce carbolic oil to unlock automated stone mining.",
     "Repair and reinforce defenses.",

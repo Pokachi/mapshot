@@ -1,0 +1,37 @@
+{
+  "id": 6,
+  "location": "Nauvis - Crash Site - Coal Processing Sector",
+  "date": "Day 5",
+  "time": "Dawn",
+  "summary": [
+    "Today went by quickly, but progress was still made. A large portion of the day was spent mining rocks again just to keep the stone supply going.",
+	"I managed to bring coal processing online today. With it came carbolic oil production and the first automated stone miner. To support the process, I finished installing four boilers to generate the steam required for the carbolic oil recipe.",
+    "Unfortunately the numbers are disappointing. The amount of carbolic oil I can currently produce isn't even enough to properly sustain a single stone miner, so throughput is extremely low.",
+    "Even so, passive stone production is still nice to have. For now, I'll take what I can get.",
+    "Coal processing also produces coal gas as a byproduct. I do know a recipe that converts coal gas into ash, but that feels wasteful. Instead, I'm storing the gas for now until I find a better use for it.",
+    "The energy math on coal processing is also worse than expected. Converting raw coal to coal turns 15 MJ of fuel into 12 MJ, and converting coal to coke turns 40 MJ into 30 MJ. Every step of the process loses energy instead of gaining it.",
+    "Because of that, raw coal will likely remain my primary fuel source for the time being.",
+    "Coke does have one useful purpose though: steel production. I quickly assembled a rough Advanced Foundry setup to start producing steel. It's not pretty, but it works. Both the coal gas storage and the steel production setup are temporary solutions. Knowing me though, they'll probably stay that way for quite a while.",
+    "Research progress today was minimal. The only technology I completed was Steel Processing.",
+    "Resource extraction continued to expand. I added more miners to both the iron and copper deposits. The northern iron deposit is now fully saturated with miners, which means further throughput increases will require expanding to the southern iron deposit.",
+    "I also finished connecting the ash outputs from the iron and copper mines to the central ash storage. The machines should no longer require manual ash clearing.",
+    "That said, the ash storage continues to grow. If production scales any further, I'll eventually need a better long-term solution for dealing with it."
+  ],
+  "status": {
+    "resource": "Stone production started but remains extremely slow due to limited carbolic oil. Additional iron and copper miners set up",
+    "power": "Still primarily running on raw coal due to energy loss in coal refinement chain.",
+    "production": "Coal processing, carbolic oil production, and temporary steel production online.",
+    "science": "Steel Processing researched.",
+    "defense": "Perimeter holding with existing turrets and walls."
+  },
+  "todo": [
+    "Develop a long-term solution for ash disposal.",
+	"Find use for steel",
+	"Continue defending and reinforcing perimeter.",
+	"Continue to research science"
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/ab8duI1hU6A",
+    "edited": ""
+  }
+}
