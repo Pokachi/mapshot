@@ -1,0 +1,37 @@
+{
+  "id": 9,
+  "location": "Nauvis - Crash Site - Southern Iron Deposit",
+  "date": "Day 8",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly spent bringing the southern iron deposit fully online. I began by expanding the power grid to support the new production systems.",
+    "The turbine array is now fully built and producing the planned 16 MW of power, supplied by two full raw coal belts. For the moment this should be enough to sustain the base and the new crusher operations.",
+    "With power stabilized, I completed the 15-5-15 miner, crusher, and furnace setup at the southern iron deposit. The results are better than expected. The crushers are producing iron at a steady rate while also generating a significant amount of stone as a byproduct.",
+    "In fact, the stone output from the crushers is already far higher than what I was getting from the carbolic oil stone mining setup. It finally feels like the stone shortage might be ending.",
+    "I prepared a blueprint to expand the iron setup further, but current power capacity won't support additional crushers yet, so the expansion will have to wait.",
+    "The ash output from the new iron line still needs to be connected to the central processing system. That will be the next infrastructure task.",
+    "To keep up with the growing ash production, I expanded ash processing again. The base now operates four solid separators dedicated to processing ash.",
+    "Research also moved forward today. I completed Botany - Stage 1, Moss - Stage 1, and Wood Processing.",
+    "These technologies should allow wood to be produced inside the base rather than relying on manually chopping trees. With crushers already providing stone as a byproduct, the base is getting close to being fully self-sufficient in basic building materials.",
+    "Establishing wood production will likely become tomorrow's main priority.",
+    "The moss farming process requires aluminum plates, so I installed a single fluid mining drill to begin extracting aluminum.",
+    "Coal gas reserves have finally been drained. With the excess gas gone, I removed the temporary storage systems that had been holding it."
+  ],
+  "status": {
+    "resource": "Crusher byproduct now supplying significant stone; aluminum extraction started.",
+    "power": "Full 16 MW turbine array operational using two raw coal belts.",
+    "production": "Southern iron deposit online with 15-5-15 miner-crusher-furnace setup.",
+    "science": "Botany Stage 1, Moss Stage 1, and Wood Processing researched.",
+    "defense": "Perimeter stable with existing turret coverage."
+  },
+  "todo": [
+    "Connect southern iron ash output to solid separator system.",
+    "Design and build automated wood production.",
+    "Monitor crusher stone output and adjust storage if needed.",
+    "Continue reinforcing perimeter defenses."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/zyzeZlEOE9k",
+    "edited": ""
+  }
+}
