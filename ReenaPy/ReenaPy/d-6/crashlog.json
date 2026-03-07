@@ -1,0 +1,34 @@
+{
+  "id": 7,
+  "location": "Nauvis - Crash Site - Ash Processing Sector",
+  "date": "Day 6",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly spent cleaning up the base and gathering raw materials. I finally produced enough steel to craft a steel axe. The difference is immediate — rocks and trees fall twice as fast now. I cleared most of the trees on the north side of the base and spent the rest of the day mining rocks outside the perimeter to replenish the stone supply.",
+    "With the growing ash stockpile becoming impossible to ignore, I finished researching ash separation and constructed the first solid separator. For the first time, ash can now be processed instead of simply stored.",
+    "Power quickly became the next bottleneck. A single ash processor consumes 1.5 MW of power, and each destructive distillation column used for coal processing consumes another 500 kW. To support the growing power demand, I began building out the turbine array blueprint I designed earlier.",
+    "The blueprint supports eight burner turbines capable of producing up to 16 MW. For now I completed half of it — four burner turbines providing roughly 8 MW of generation. It should be enough to stabilize operations in the short term.",
+    "Ash processing introduces another complication: soot. While the solid separator can also process soot into useful materials, doing so would require another 1.5 MW of power. For now I'm simply storing soot alongside the ash. If it becomes another storage problem, I'll build additional separators later.",
+    "Research also moved forward today. In addition to Ash Separation and the steel axe, I completed research on Soil Washing and the Crusher.",
+    "Soil washing doesn't have an immediate use yet, but the crusher looks promising. It can process iron more efficiently and produces stone as a byproduct, which could help solve the ongoing stone shortage.",
+    "Tomorrow I’ll likely clear the southern section of the base — trees and rocks — so I can expand iron processing there using crushers.",
+    "Defense remains a constant maintenance task. Biter attacks are increasing in size. Especially the night attacks. Turrets and walls continue to get destroyed and rebuilt almost daily. For now they are holding the line, and as long as the creatures stay focused on the perimeter instead of breaking through to the production lines, I can afford to focus on more pressing problems."
+  ],
+  "status": {
+    "resource": "Large quantities of stone and wood are mined and chopped manually.",
+    "power": "4 burner turbines online producing roughly 8 MW from planned 16 MW array.",
+    "production": "Three ash separator operational; soot currently stored.",
+    "science": "Steel Axe, Ash Separation, Soil Washing, and Crusher researched.",
+    "defense": "Perimeter under constant pressure; turrets and walls frequently rebuilt but holding."
+  },
+  "todo": [
+    "Set up crusher-based iron processing in the southern sector.",
+    "Clear southern base area of trees and rocks for expansion.",
+	"Continue to defend perimeter and replace broken turrets and walls.",
+	"Continue to research science"
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/B-v70U7iS1s",
+    "edited": ""
+  }
+}
