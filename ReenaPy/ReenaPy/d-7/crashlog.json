@@ -1,0 +1,37 @@
+{
+  "id": 8,
+  "location": "Nauvis - Crash Site - Southern Iron Deposit",
+  "date": "Day 7",
+  "time": "Noon",
+  "summary": [
+    "Today was focused on clearing and preparing the southern expansion area. I finished removing the remaining trees and rocks south of the base and also mined additional rocks outside the perimeter. At this point, pretty much all land inside the base is clear of obstacles. Everything remaining inside the perimeter should now be buildable once the foundations are laid.",
+    "With the area cleared, I began setting up the southern iron deposit. After running some calculations, the expected production ratio between miners, jaw crushers, and furnaces appears to be roughly 15:5:15. To test the design, I decided to build a single set first and observe how it performs.",
+    "The miners and jaw crushers are already installed, but the furnace line still needs to be constructed. Power infrastructure will also need to be expanded again before the crushers can run at full capacity.",
+    "Each jaw crusher consumes roughly 1 MW of power. Scaling iron production therefore requires additional turbines and more ash processing capacity. Another solid separator will be required to keep up with the growing ash output, which itself consumes another 1.5 MW.",
+    "It's becoming increasingly clear that the base will eventually need a more advanced power solution. For now, however, there are still other technologies that feel more urgent.",
+    "Research continued today with Fluid Mining and Glass Technology.",
+    "Fluid mining unlocks the ability to mine tin and aluminum, though neither resource is immediately necessary for the base, so they are not a current priority.",
+    "Glass technology allows the production of glass. While I do not yet have a direct use for glass either, the process conveniently consumes large amounts of coal gas as fuel. I set up a basic glass production line primarily to deal with the growing coal gas storage problem.",
+    "Copper production also received a small expansion today. I added a few miners and slightly increased the furnace capacity to improve overall copper throughput.",
+    "Defense remains a concern. A small breach occurred along the perimeter and two biters managed to slip through into the production area. They destroyed four transport belts before I could intercept them. The damage was minor, but it highlights weaknesses in the current perimeter coverage.",
+    "After dealing with the intruders, I installed several additional turrets along that section of the wall in hopes of reducing the chance of another breach."
+  ],
+  "status": {
+    "resource": "Base interior fully cleared of rocks and trees; southern iron expansion underway; quartz mining started.",
+    "power": "Current generation nearing limits due to crushers and ash processing demand.",
+    "production": "Jaw crushers installed at southern iron deposit; furnace line pending; small copper expansion completed; glass production online.",
+    "science": "Fluid Mining and Glass Technology researched.",
+    "defense": "Minor perimeter breach occurred; additional turrets installed to reinforce the weak section."
+  },
+  "todo": [
+    "Complete furnace setup for southern iron crusher line.",
+    "Expand power production to support crushers and ash separators.",
+    "Install another solid separator for growing ash output.",
+    "Continue reinforcing perimeter defenses.",
+	"Continue research."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/nGWro-5Etlo",
+    "edited": ""
+  }
+}
