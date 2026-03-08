@@ -1,0 +1,37 @@
+{
+  "id": 10,
+  "location": "Nauvis - Crash Site - Wood Production Sector",
+  "date": "Day 9",
+  "time": "Noon",
+  "summary": [
+    "Today I paused scientific research to focus on production systems that the base has been missing. The main objective was to establish a wood production chain so the base no longer depends on chopping trees manually.",
+    "The first step of the chain is moss production. I built two Moss Farm MK01 units to begin generating moss within the base.",
+    "There are two possible moss recipes. The first converts 100 muddy sludge and 100 carbon dioxide into 8 moss. The second adds 20 stone to the same inputs and produces 16 moss instead. With the recent increase in stone production from the jaw crushers, using the stone recipe makes far more sense for the higher output.",
+    "One interesting thing about moss production is that it runs slowly unless moss is already present in the farms. Fortunately I had accumulated a large amount of moss from mining rocks earlier in the campaign, so I was able to preload both farms to their maximum capacity.",
+    "The next step in the chain is producing tree seedlings. These require tree seeds, moss, and water. Tree seeds spoil over time, which means production has to be carefully controlled to avoid clogging the machines.",
+    "For now I wired the system so seedlings are only produced when a Fastwood Forestry building is ready to consume them.",
+    "Fastwood Forestry is the final step of the chain and converts seedlings into logs. There are three possible recipes: 3 seedlings into 3 logs, 3 seedlings and 500 water into 4 logs, or 30 ash, 3 seedlings, and 500 water into 6 logs.",
+    "The third recipe is clearly the most valuable. It doubles the output compared to the basic recipe while also consuming ash, which the base is currently producing in large quantities.",
+    "Based on my calculations, each nursery can supply enough seedlings to support two Fastwood Forestry buildings. That means the target setup will eventually be four forestry structures.",
+    "These buildings are enormous though. For now I only have one installed, and finding space for the other three will require more planning.",
+    "Aside from the wood chain construction, the rest of the day was spent maintaining the base. I balanced ash storage between processors and repaired damaged walls and turrets along the perimeter.",
+    "Once wood production stabilizes, the next step will be building a small manufacturing mall for basic logistics items like belts and inserters, followed by automating science production again."
+  ],
+  "status": {
+    "resource": "Stable.",
+    "power": "16 MW turbine array continuing to support base operations.",
+    "production": "Moss farms, Nursery, and first Fastwood Forestry operational; automated wood chain partially established.",
+    "science": "Science paused temporarily to focus on production infrastructure.",
+    "defense": "Perimeter holding with routine turret and wall repairs."
+  },
+  "todo": [
+    "Expand Fastwood Forestry.",
+    "Build a small mall for belts, inserters, and basic logistics.",
+    "Automate science production.",
+	"
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/_0rTk0XuJZw",
+    "edited": ""
+  }
+}
