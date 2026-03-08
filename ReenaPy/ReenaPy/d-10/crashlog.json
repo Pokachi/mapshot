@@ -1,0 +1,31 @@
+{
+  "id": 11,
+  "location": "Nauvis - Crash Site - Northern Wall",
+  "date": "Day 10",
+  "time": "Noon",
+  "summary": [
+    "Today continued with infrastructure work and automation. I finished setting up the Fastwood Forestry system for now, completing the current wood production chain. The system should provide enough logs for the base without relying on manual tree cutting.",
+    "With wood supply stabilized, I moved on to building a small logistics mall. The mall now produces several essential construction items automatically, including transport belts, underground belts, pipes, underground pipes, and mechanical inserters.",
+    "Having these items crafted automatically should make future construction and expansion significantly easier.",
+    "I also began preparing the layout for automated science production. The blueprint for planter boxes and copper wire production has been placed, as both are required components for the science chain.",
+    "The blueprint itself is not fully build and connected yet, but I already crafted most of the required buildings. If everything goes according to plan, automated science production should be finished tomorrow.",
+    "Aside from the construction work, the day was relatively quiet. I didn't leave the perimeter of the base at all today and focused entirely on internal development.",
+    "Defense remains an ongoing maintenance task. Several turrets and wall segments along the perimeter were destroyed during attacks and had to be replaced once again."
+  ],
+  "status": {
+    "resource": "Wood production chain operational with Fastwood Forestry.",
+    "power": "16 MW turbine array continuing to support base operations.",
+    "production": "Logistics mall producing belts, pipes, and inserters.",
+    "science": "Paused.",
+    "defense": "Perimeter holding with routine turret and wall repairs."
+  },
+  "todo": [
+    "Finish setup automated science production.",
+    "Continue reinforcing perimeter defenses.",
+	"Restart science again."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/Caerwbr3GyA",
+    "edited": ""
+  }
+}
