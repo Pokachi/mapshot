@@ -1,0 +1,36 @@
+{
+  "id": 13,
+  "location": "Nauvis - Crash Site - Eastern Wall",
+  "date": "Day 12",
+  "time": "Noon",
+  "summary": [
+    "Today was largely focused on improving defensive infrastructure and automation. I set up automated production for wooden magazines and wooden fences so replacement materials will always be available when attacks damage the perimeter.",
+    "I chose not to automate turret production for now. Based on current estimates, the number of turrets required for the perimeter is relatively small compared to other consumables like ammunition and fences.",
+    "Gun Turret research also finished today. The research took longer than expected because science production dropped from around 12 SPM to roughly 6 SPM.",
+    "The slowdown was caused by a shortage of stone. Iron production occasionally backs up, which causes the crushers to stop running and temporarily halts stone byproduct generation. Even when everything is operating normally, the crushers still struggles to produce enough stone.",
+    "Increasing stone supply would require adding more jaw crushers, but that would also increase power demand — something the base is already struggling with.",
+    "While reviewing power options, I discovered another potential solution: fish turbines. They produce relatively little electricity and require a large amount of space, but the major advantage is that they consume no fuel once constructed.",
+    "The downside is that fish turbines require fish as a construction material. The small lake inside the base only contained enough fish to construct four turbines, so I will eventually need to explore outside the perimeter to locate additional sources.",
+    "With gun turrets now available, I began constructing a proper defensive perimeter for the base. The northern wall section has already been fully upgraded with gun turrets.",
+    "The rest of the perimeter still needs to be rebuilt, but if progress continues at the current pace it should be finished tomorrow.",
+    "Once the full defensive perimeter is complete, the base should be stable enough for me to safely leave the area and search for additional fish while science research continues in the background.",
+    "Because of the large number of wooden fences and magazines required for the defenses, I also doubled the Fastwood Forestry capacity to ensure wood supply can keep up with demand.",
+    "As a backup plan, I will begin researching Fluid Pressurization next. That technology unlocks steam engines, which are more efficient than burner turbines. If I fail to find enough fish to expand fish turbine power generation, transitioning to steam power will become the next major upgrade for the base."
+  ],
+  "status": {
+    "resource": "Stone production remains a bottleneck due to crusher throughput limits.",
+    "power": "16 MW turbine grid supplemented by four experimental fish turbines.",
+    "production": "Magazine and wooden fence production automated; Fastwood Forestry capacity doubled.",
+    "science": "Gun Turret research completed; Fluid Pressurization selected as the next research target.",
+    "defense": "Northern defensive perimeter upgraded with gun turrets; remaining walls pending construction."
+  },
+  "todo": [
+    "Finish constructing the full defensive perimeter around the base.",
+    "Search for additional fish to expand fish turbine power generation.",
+    "Research Fluid Pressurization to unlock steam engines.",
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/fjNfjIwRRlw",
+    "edited": ""
+  }
+}

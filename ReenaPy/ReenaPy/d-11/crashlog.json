@@ -1,0 +1,40 @@
+{
+  "id": 12,
+  "location": "Nauvis - Crash Site - Science Sector",
+  "date": "Day 11",
+  "time": "Noon",
+  "summary": [
+    "Today was focused almost entirely on science automation. By the end of the day I managed to bring the system online at roughly 12 science packs per minute. The design itself supports up to 60 SPM, but as usual the rest of the base cannot yet support that level of throughput.",
+    "The main bottleneck right now is power, and the limiting factor for power is coal supply. The coal deposit near the base is already fully saturated with miners, which means raw coal throughput cannot increase unless I claim additional coal deposits outside the current territory.",
+    "Looking at the situation, there are two main ways forward. The first option is improving power efficiency. Burner turbines operate at roughly 35 percent efficiency, while steam engines operate at about 50 percent. Switching to steam engines would increase the total power output from the same coal supply by roughly 3.25 MW, about a forty percent improvement overall.",
+    "Unfortunately steam engines require fluid pressurization technology, which I have not researched yet, so that solution will have to wait.",
+    "The second option is improving the fuel being fed into the fuel processors. Among the fuels available, only kerogen, coal, and coke have higher fuel value than raw coal. Kerogen cannot be produced in large quantities due to limited carbolic oil production, and converting raw coal into coal or coke actually results in energy loss.",
+    "However, there is another path. Coal can also be produced from wood. The recipe converts 10 wood into 10 coal. This is not only not an energy loss, but actually doubles the usable fuel value. Ten wood contains about 20 MJ of energy, while ten coal contains about 40 MJ.",
+    "Previously this wasn't viable because wood was the limting factor. Now that wood production is automated, this conversion could become a major improvement for the base's energy supply. Setting up wood-to-coal processing will likely be tomorrow's main project.",
+    "With science running again, I also reviewed the available research priorities. The most relevant technologies are Fastwood Forestry upgrades to improve wood production, Fluid Pressurization for steam engines, and Gun Turrets for improved defense.",
+    "Each of these technologies costs roughly 600 automation science packs. At the current research speed of about 12 SPM, that means roughly a days per research. Given that limitation, I can only prioritize one of them for now.",
+    "I recently managed to establish limited communications with other engineers. While they cannot assist directly, they were able to offer advice. Funnily enough the vote is equal between all 3 tech.",
+    "After considering the situation, I decided to prioritize Gun Turrets. Power and fuel efficiency can still be improved with the technology I already have, but I currently have no effective way to reduce losses from biter attacks.",
+	"In the mean time, I should probably set up automation for defense too.",
+    "The main threats are nuclear biters getting too close before they are destroyed and spitters outranging the current turrets. Gun turrets have an attack range of eighteen, which should help mitigate both problems.",
+    "Defense today remained routine maintenance. Walls and turrets were damaged repeatedly and replaced as needed.",
+    "One unexpected event occurred when a meteorite struck directly inside the base perimeter. It destroyed several belts and inserters before impact debris settled. Meteorites were extremely common during my journey to the shattered planet, so their appearance here is not surprising.",
+    "The problem is that I currently have no way to defend against them. For now the damage is manageable, but a direct hit on more expensive infrastructure could become a serious issue."
+  ],
+  "status": {
+    "resource": "Coal mine fully saturated; wood production stable and may become future fuel source.",
+    "power": "16 MW burner turbine array limited by raw coal throughput.",
+    "production": "Science automation operational at approximately 12 SPM.",
+    "science": "Gun Turret research selected as the next long-term project.",
+    "defense": "Frequent turret and wall replacement; meteorite strike caused minor infrastructure damage."
+  },
+  "todo": [
+    "Setup defense automation.",
+    "Continue Gun Turret research.",
+    "Continue reinforcing perimeter defenses."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/ixix093825A",
+    "edited": ""
+  }
+}
