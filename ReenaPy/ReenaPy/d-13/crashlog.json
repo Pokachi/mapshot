@@ -1,0 +1,42 @@
+{
+  "id": 14,
+  "location": "Nauvis - New Dawn - Science Sector",
+  "date": "Day 13",
+  "time": "Noon",
+  "summary": [
+    "Today I finished constructing the fully automated base defense system. With the perimeter secured and resupply automated, I refueled the base and set out west in search of fish.",
+    "The journey began at night, and visibility was nearly nonexistent. The darkness made navigation difficult, and several times I stumbled across biter nests. Fortunately I managed to slip past them without drawing too much attention.",
+    "After traveling for some time I eventually reached a coastline. Beyond it stretched endless water. I followed the shore for hours, catching every fish I could with a makeshift fish radar.",
+    "By the time sunrise arrived, I began the long return trip back to base. The effort paid off. In total I caught a total of 250 fish, which is enough to construct roughly 50 fish turbines.",
+    "Unfortunately space inside the base is limited and I currently have zero chunk claim points available. Because of that I paused Fluid Pressurization research in favor of researching additional chunk claim points so I can expand the base perimeter.",
+    "Steam engines will still be necessary eventually, but the fish turbines mean steam power is no longer an immediate requirement. For now fish turbines can supplement the burner turbines and reduce pressure on the coal supply.",
+    "While I was away, the base automation was put to its first real test. The defensive system worked perfectly. Overnight the defenses eliminated over one hundred biters, including five nuclear biters and the only structural loss was three wooden fences.",
+    "Before the gun turret upgrade and automated resupply, those same attacks would likely have destroyed well over a hundred fences and several turrets. The research investment has clearly paid off.",
+    "The biggest unexpected benefit is that the base is now secure enough for me to safely leave and explore. That was something I hadn't originally accounted for.",
+    "Science automation also worked as intended. Research continued steadily at around 6 science packs per minute while I was away.",
+    "Shortly after returning home, however, the base experienced a brief brownout. Ash had filled the fuel processors, which stopped fuel production. Without fuel, the burner turbines shut down and power generation collapsed.",
+    "Fortunately I arrived in time to manually clear the ash and restart the system so the base was only down for a brief period of time.",
+    "With the fish finally secured, I began installing fish turbines. Due to space and material limitations I only managed to build eight additional turbines today, bringing the total to twelve.",
+    "Fish turbine output fluctuates, but during peak output the system now produces roughly 10 MW of power. Considering they require no fuel, that is a significant improvement.",
+    "There are still enough fish remaining to construct another forty-two turbines once space becomes available.",
+    "Burner turbines will still be required as Fish turbine output fluctuates. However, prioritizing fish turbines whenever possible should greatly reduce coal consumption and significantly cut down ash production.",
+    "With the base now fully defended and capable of sustaining itself through automation, I decided it deserved a name. From this day forward, this place will be known as New Dawn Outpost.",
+    "Maybe one day, from this outpost, I’ll find a way off this forsaken planet."
+  ],
+  "status": {
+    "resource": "250 fish recovered from western coastline expedition.",
+    "power": "12 fish turbines installed producing up to ~10 MW peak power supplemented by burner turbines array producing 16 MW of power.",
+    "production": "Fuel processor chain stable but vulnerable to ash buildup.",
+    "science": "Science running at ~6 SPM; chunk claim research prioritized over Fluid Pressurization.",
+    "defense": "Fully automated defense perimeter operational; minimal damage during overnight attacks."
+  },
+  "todo": [
+    "Research additional chunk claim points to expand base territory.",
+    "Install more fish turbines as space becomes available.",
+	"Start setting up wood to coal to improve fuel efficiency."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/9rU8XxMtpAg",
+    "edited": ""
+  }
+}
