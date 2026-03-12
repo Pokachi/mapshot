@@ -1,0 +1,38 @@
+{
+  "id": 16,
+  "location": "Nauvis - New Dawn - Power Sector",
+  "date": "Day 15",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly focused on further infrastructure expansion. To start the day, I finished setting up the additional copper mining operation at the northern copper deposit. The extra copper supply was weclome.",
+    "After that I constructed the wood-to-coal processing chain. Setting it up was relatively straightforward and it allowed wood production from the Fastwood Forestry to supplement the base's fuel supply.",
+    "However, I believe I made a mistake in what I did next. I decided to expand the southern iron deposit once again. The expansion required more miners and crushers, which of course demanded additional fuel and power.",
+    "The half belt of raw coal feeding the operation was not sufficient to support the additional miners, so I appended the newly produced coal from the wood processing line onto the same fuel belt.",
+    "Unfortunately I overestimated how much wood the base is currently producing. The wood supply quickly became the bottleneck for the entire fuel chain.",
+    "Because of the unstable fuel supply, many of the newly placed miners are either under-fueled or running intermittently. When they do run, they generate large amounts of ash, which means ash production is once again exceeding the rate at which it can be processed.",
+    "Another problem surfaced with the power grid itself. I slightly exceeded the load limit of the small electric poles. Each wooden pole can safely carry up to 30 MW of power, and if the load exceeds that threshold the poles will overload and explode.",
+    "With the current infrastructure expansion, it has become clear that the base will require a second independent power grid soon to avoid catastrophic failures.",
+    "Not everything today was bad news though. Despite the infrastructure strain, the improved production chains allowed science to run at approximately 12 science packs per minute, effectively doubling the previous research rate.",
+    "Fluid Pressurization research was completed today. With that technology unlocked, I can now begin transitioning away from the burner turbine setup and replace it with a more efficient steam engine power system.",
+    "For the next research project I have selected the Fastwood Forestry upgrade. Improving wood production should help resolve the current wood bottleneck and stabilize the new fuel chain.",
+    "Defense-wise, new enemy variants have begun appearing near the perimeter. Regenerative and armored biters have proven particularly troublesome as they can chew through our bullets much more effectively than standard biters.",
+    "These enemies managed to destroy two turrets before I could intervene. Fortunately they appear to be rare for now, but when they do appear I have to personally deal with them before they cause significant damage."
+  ],
+  "status": {
+    "power": "Power consumption approaching the 30 MW limit of the wooden pole grid; second grid likely required. Steam engine transition now possible after Fluid Pressurization research.",
+    "resources": "Wood and coal supply becoming the primary bottleneck.",
+    "production": "Northern copper mining completed; southern iron mining expanded.",
+    "science": "Science running at ~12 SPM; Fluid Pressurization completed and Fastwood Forestry upgrade selected next.",
+    "defense": "New regenerative and armored biters observed; two turrets destroyed before manual intervention."
+  },
+  "todo": [
+    "Construct a second power grid to prevent small electric pole overload.",
+    "Transition from burner turbines to steam engines.",
+    "Improve wood production through Fastwood Forestry upgrades.",
+    "Stabilize ash processing to prevent another buildup."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/mOMGqmePQyE",
+    "edited": ""
+  }
+}

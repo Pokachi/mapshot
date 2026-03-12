@@ -1,0 +1,43 @@
+{
+  "id": 17,
+  "location": "Nauvis - New Dawn - Water Processing Sector",
+  "date": "Day 16",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly spent trying to fix the mistakes I made yesterday. To start off, I removed the burner turbines and fuel processors and replaced them with steam engines.",
+    "Steam engines are not only more fuel efficient but also more space efficient. As a result, the power sector now has additional room for expansion if needed.",
+    "Another benefit of this transition is reduced ash production since less coal is required for electricity generation. Because of that, our ash situation is somewhat under control again.",
+    "Next, I began setting up a second power grid. Both grids are still supplied by the same fish turbines and steam engines, but they are now separated into two independent networks.",
+    "One grid powers the fifteen jaw crushers, which consume roughly 15 MW of energy. The second grid powers the rest of the base, also consuming around 15 MW. With this separation, the power poles should no longer risk overloading.",
+    "I also finished researching the Fastwood Forestry upgrade. There were three upgrade options available.",
+    "The first upgrade reduces forestry power usage while increasing log production speed and productivity, but it also requires more ash input. While useful, it would require expanding the sawmill infrastructure to fully benefit from it.",
+    "The second upgrade improves the sawmill itself, doubling wood production at the same log cost and operating at four times the speed. This option seemed far more input efficient since it effectively produces more wood using the same raw materials.",
+    "The third upgrade improved fiber and raw fiber recipes. Since I currently have no idea what fiber is used for, I decided to choose the sawmill upgrade that doubles wood production.",
+    "The upgrade successfully solved the wood shortage problem. However, it revealed another issue that I failed to account for: water demand.",
+    "The new steam engines require significantly more water for the boilers, and I underestimated how much additional water filtration would be needed. As a result, several production systems that rely on water have begun to stall.",
+    "The real bottleneck appears to be the rate at which used water filters are recycled. The assembling machines responsible for producing new water filters simply cannot keep up.",
+    "To resolve this, I will need to expand the water filter production line with additional assembling machines. That will be my top priority tomorrow.",
+    "Aside from the water issues, science production continues to be heavily bottlenecked by stone.",
+    "Expanding the jaw crusher operation further does not appear to be a good solution. Doing so would introduce several new problems including higher power consumption, excessive iron production, increased fuel demand, and additional ash generation from the miners.",
+    "I spoke with several fellow engineers over telecommunication, and they suggested that tar processing might be a better solution for improving stone availability.",
+    "Unfortunately I am not yet sure which technologies lead to tar processing. Based on the research tree, my best guess is that Kerogen Processing may eventually lead toward it.",
+    "Kerogen itself is produced from stone mining, and while the technology does not provide any immediate benefits, I am hopeful that it may unlock a path toward tar processing."
+  ],
+  "status": {
+    "power": "Steam engines fully replaced burner turbines; two independent 15 MW power grids established to prevent pole overload.",
+    "resources": "Wood shortage solved after fastwood forestry TURD upgrade, but water supply now bottlenecked by slow filter recycling.",
+    "production": "Water infrastructure struggling due to increased boiler demand.",
+    "science": "Science still primarily bottlenecked by stone production; Fastwood forestry upgrade completed; Kerogen Processing selected as next research.",
+    "defense": "Perimeter defenses remain stable with automated turrets continuing to repel occasional biter attacks."
+  },
+  "todo": [
+    "Expand water filter production with additional assembling machines.",
+    "Stabilize water supply for steam engines and production lines.",
+    "Investigate technologies leading toward tar processing.",
+    "Continue monitoring ash levels after the power transition."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/Knst_oGFgWU",
+    "edited": ""
+  }
+}

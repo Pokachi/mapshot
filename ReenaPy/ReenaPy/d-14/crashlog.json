@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "location": "Nauvis - New Dawn - Northern Copper Deposit",
+  "date": "Day 14",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly focused on infrastructure expansion. The main project was installing additional fish turbines to stabilize power production.",
+    "I constructed twenty more fish turbines, bringing the total to thirty-two. Clearing space for them took most of the day because I chose to build them along the northern side of the base. In hindsight that may not have been the best decision, as clearing the forest slowed the work significantly. In the future I should prioritize expanding toward the south where the terrain is easier to prepare.",
+    "Even after today's construction I still have around 110 fish remaining. For now I will store them until more space becomes available for additional turbines.",
+    "Power production is now significantly more stable. Burner turbines only activate occasionally when the fluctuating output of the fish turbines drops too low.",
+    "Because burner turbines are running far less often, ash production has dropped dramatically. This finally allowed the ash processing system to begin working through the large stockpile that has been accumulating since the early days after the crash.",
+    "With fewer solid separators needing to run constantly, the overall power demand of the base has also decreased slightly. It's a win-win situation all around.",
+    "I also doubled the iron mining and jaw crusher capacity at the southern iron deposit. This expansion was not meant to increase iron production. In fact I am already producing more iron plates than I currently need and have begun storing the surplus in chests.",
+    "The real reason for the expansion was stone. Stone has become one of the most severe bottlenecks in the base, both for building infrastructure foundations and for science production.",
+    "The additional crushers are already helping increase stone output, although demand is still very high.",
+    "I also began tapping into the northern copper deposit in order to expand copper production. Several manufacturing chains require large amounts of copper, and the original copper mine will not be sufficient long term.",
+    "I did not manage to construct the wood-to-coal processing chain today. The urgency for it has decreased because the fish turbines have greatly reduced raw coal consumption.",
+    "However, I will still need to build it soon. The expanded southern iron mine now requires a significant amount of fuel for its operations, and converting wood into coal should provide a reliable supplemental fuel source."
+  ],
+  "status": {
+    "power": "32 fish turbines installed with burner turbines acting as backup.",
+    "resources": "Ash stockpile finally being processed; excess iron plates stored.",
+    "production": "Southern iron mining and crusher capacity doubled primarily for stone output; Northern copper deposit expansion underway.",
+    "science": "20 additional chunk points researched, resuming fluid pressurization.",
+	"defense": "Automated perimeter defenses operational with no major incidents today."
+  },
+  "todo": [
+    "Complete the northern copper mining operation.",
+    "Construct the wood-to-coal processing chain to supply fuel for the southern iron mine.",
+    "Continue science."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/wZqKlP4N0co",
+    "edited": ""
+  }
+}
