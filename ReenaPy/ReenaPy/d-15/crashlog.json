@@ -20,7 +20,7 @@
   ],
   "status": {
     "power": "Power consumption approaching the 30 MW limit of the wooden pole grid; second grid likely required. Steam engine transition now possible after Fluid Pressurization research.",
-    "resources": "Wood and coal supply becoming the primary bottleneck.",
+    "resource": "Wood and coal supply becoming the primary bottleneck.",
     "production": "Northern copper mining completed; southern iron mining expanded.",
     "science": "Science running at ~12 SPM; Fluid Pressurization completed and Fastwood Forestry upgrade selected next.",
     "defense": "New regenerative and armored biters observed; two turrets destroyed before manual intervention."

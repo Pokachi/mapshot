@@ -25,7 +25,7 @@
   ],
   "status": {
     "power": "Steam engines fully replaced burner turbines; two independent 15 MW power grids established to prevent pole overload.",
-    "resources": "Wood shortage solved after fastwood forestry TURD upgrade, but water supply now bottlenecked by slow filter recycling.",
+    "resource": "Wood shortage solved after fastwood forestry TURD upgrade, but water supply now bottlenecked by slow filter recycling.",
     "production": "Water infrastructure struggling due to increased boiler demand.",
     "science": "Science still primarily bottlenecked by stone production; Fastwood forestry upgrade completed; Kerogen Processing selected as next research.",
     "defense": "Perimeter defenses remain stable with automated turrets continuing to repel occasional biter attacks."

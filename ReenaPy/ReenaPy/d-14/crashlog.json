@@ -19,7 +19,7 @@
   ],
   "status": {
     "power": "32 fish turbines installed with burner turbines acting as backup.",
-    "resources": "Ash stockpile finally being processed; excess iron plates stored.",
+    "resource": "Ash stockpile finally being processed; excess iron plates stored.",
     "production": "Southern iron mining and crusher capacity doubled primarily for stone output; Northern copper deposit expansion underway.",
     "science": "20 additional chunk points researched, resuming fluid pressurization.",
 	"defense": "Automated perimeter defenses operational with no major incidents today."
