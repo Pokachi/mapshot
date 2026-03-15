@@ -1,0 +1,35 @@
+{
+  "id": 21,
+  "location": "Nauvis - New Dawn - New Wood Sector",
+  "date": "Day 20",
+  "time": "Noon",
+  "summary": [
+    "Not too much happened today. Most of the day was spent on general base maintenance and continuing the setup of the new wood production infrastructure.",
+    "The expanded forestry sector is slowly taking shape, although it still requires additional construction before reaching its intended capacity.",
+    "Aside from building work, I spent time maintaining various parts of the base, clearing minor resource backups, and keeping production lines stable.",
+    "During maintenance I decided to remove the furnaces at the original starter iron deposit. The southern iron deposit is now producing more than enough iron plates for the entire base.",
+    "Instead of continuing to smelt iron there, the starter iron deposit will now be repurposed to produce steel only. This should simplify the logistics and make better use of the existing infrastructure.",
+    "On the technology front, I completed research for Nanobots. This technology should significantly assist with construction and repair tasks, making it much easier to expand infrastructure without having to build everything manually.",
+    "I also researched Sand Processing and Landfill. These technologies are mostly quality-of-life improvements but should make future construction far easier.",
+    "Landfill will allow me to fill in the small ponds scattered around the area that have been blocking infrastructure expansion.",
+    "Sand Processing should also provide additional building materials and help streamline certain production chains later on.",
+    "Overall today was mostly preparation work to make future expansion and construction significantly easier."
+  ],
+  "status": {
+    "power": "Power production remains stable with the dual steam engine and fish turbine grids.",
+    "resource": "Wood production sector under construction with expansion continuing.",
+    "production": "Starter iron deposit repurposed for steel production while southern iron deposit supplies the base with iron plates.",
+    "science": "Nanobots, Sand Processing, and Landfill researched to improve construction capabilities.",
+    "defense": "Perimeter defenses remain stable with no major incidents."
+  },
+  "todo": [
+    "Continue construction of the new wood production sector.",
+    "Use landfill to remove terrain obstacles around infrastructure zones.",
+    "Prepare for implementing tar processing after wood production stabilizes.",
+    "Continue improving automation using nanobots."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/K4CJP4VHc7U",
+    "edited": ""
+  }
+}

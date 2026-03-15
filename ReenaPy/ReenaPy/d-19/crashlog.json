@@ -1,0 +1,32 @@
+{
+  "id": 20,
+  "location": "Nauvis - New Dawn - Stone Deposit",
+  "date": "Day 19",
+  "time": "Noon",
+  "summary": [
+    "Today turned into yet another expansion day. I underestimated how much space the forestry machines would require, so most of the day was spent clearing terrain and extending the sector to fit the new tree farm layout.",
+    "The forestry expansion is significantly larger than I initially expected, but it should allow the base to produce a much larger supply of wood once everything is operational.",
+    "Aside from clearing land for the forestry sector, I also constructed a new water processing plant consisting of twelve precipitation tanks dedicated to producing clean water.",
+    "The layout of this new plant was designed with future expansion in mind. The system can be easily doubled if additional water throughput becomes necessary.",
+    "Tar processing is once again being delayed. While the technology is now available, I decided it would be better to focus on one major project at a time. For now, that priority is expanding wood production.",
+    "Once the forestry sector is fully operational, I will revisit tar processing and finally begin implementing the new recipes that should help solve the stone shortage.",
+    "On the research front, I completed two additional iterations of the Additional Chunk technology to secure enough territory for the expanding forestry sector.",
+    "I also researched Repair Packs, which will finally allow me to repair turrets and other structures damaged by meteorite impacts without having to replace them entirely.",
+    "My next research project will be Nanobots. If the technology works the way I hope it does, it should significantly assist with construction and repair tasks so I no longer have to manually build or fix every structure myself."
+  ],
+  "status": {
+    "power": "Steam engine and fish turbine power grids remain stable with adequate capacity for current expansion.",
+    "resource": "Large scale forestry expansion underway to secure long-term wood supply.",
+    "production": "New clean water facility with 12 precipitation tanks constructed and designed for future expansion.",
+    "science": "Additional Chunk research expanded territory; Repair Pack technology completed; Nanobots selected as next research.",
+    "defense": "Perimeter defenses stable; repair packs will allow damaged turrets and structures to be fixed instead of replaced."
+  },
+  "todo": [
+    "Complete construction of the large forestry sector.",
+    "Research nanobots to improve construction and maintenance efficiency."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/StEmGcsaqNk",
+    "edited": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": 23,
+  "location": "Nauvis - New Dawn - New Wood Sector",
+  "date": "Day 22",
+  "time": "Noon",
+  "summary": [
+    "Today I finally finished the new wood production sector. Technically it is only running at half capacity because I completed just one of the two planned columns of Fastwood Forestry, but even at half capacity the sector is already producing more than enough wood for the base.",
+    "I also set up wood-to-coal processing to supplement the base with additional coal production.",
+    "The new sector turned out to be mostly self-sufficient, requiring only ash from existing production chains as input.",
+    "With both wood and fuel now stabilized, the base should finally be ready to move forward with tar processing in order to solve the long-standing stone shortage.",
+    "However, constructing the buildings required for tar processing will require concrete, which we are not currently producing at all.",
+    "Because of that, tomorrow's main project will be establishing a proper concrete production chain. Once that is completed, tar processing infrastructure will follow shortly after.",
+    "On the research front, I completed Creosote processing technology along with several smaller and inexpensive technologies.",
+    "Creosote should become useful once tar processing begins, as it allows some of the tar processing byproducts to be further refined.",
+    "The other technologies researched today were mostly inexpensive upgrades that I decided to clear from the research queue while they were easy to complete.",
+    "These included Glass Text Plates and Steel Text Plates for factory labeling and decoration, Medpack for field healing, Chaingunners for mobile defense and assault capabilities, and Automated Vehicle Deployment which allows vehicles to be deployed automatically."
+  ],
+  "status": {
+    "power": "Power grid remains stable with steam engines and fish turbines supporting the base.",
+    "resource": "Wood production stabilized with the new forestry sector running at half capacity but already exceeding demand.",
+    "production": "Wood-to-coal processing established; new forestry sector largely self-sufficient except for ash input.",
+    "science": "Creosote and several low-cost technologies researched while preparing for future tar processing research.",
+    "defense": "Perimeter defenses remain operational with new combat technologies such as chaingunners now available."
+  },
+  "todo": [
+    "Establish a concrete production chain.",
+    "Begin constructing tar processing infrastructure.",
+    "Finish the second column of the Fastwood Forestry sector if additional wood demand appears."
+  ],
+  "youtube": {
+    "raw": "",
+    "edited": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": 22,
+  "location": "Nauvis - New Dawn - New Wood Sector",
+  "date": "Day 21",
+  "time": "Noon",
+  "summary": [
+    "Today was largely the same as yesterday. Most of the time was spent continuing construction and adjustments to the new wood production sector.",
+    "The new forestry infrastructure is almost ready to come online, although it still needs a bit more work and some initial kick-starting before it can fully sustain itself.",
+    "Once the new wood production sector is operational, I plan to dismantle the older wood infrastructure within the base. Removing the outdated setups should free up valuable space for future expansion.",
+    "Another milestone occurred today as the original starter copper deposit was finally depleted.",
+    "With the starting deposit exhausted, mining operations have begun shifting fully toward the much larger northern copper deposit, which should provide a far more stable supply moving forward.",
+    "Removing the old copper mining infrastructure also cleared a sizable chunk of land within the base perimeter. I will most likely use that space to expand the copper furnace stack in the near future.",
+    "Between the ongoing construction work and routine base maintenance, I did not manage to complete any research today.",
+    "However, once the new wood sector is fully operational and the base stabilizes again, science production should resume tomorrow."
+  ],
+  "status": {
+    "power": "Power systems remain stable with the dual steam and fish turbine grids.",
+    "resource": "Starter copper deposit depleted; northern copper deposit now supplying the base.",
+    "production": "New wood production sector nearly complete; land freed from starter copper mine available for copper smelting expansion.",
+    "science": "No research completed today due to construction and maintenance workload.",
+    "defense": "Perimeter defenses remain operational with routine repairs as needed."
+  },
+  "todo": [
+    "Finish activating the new wood production sector.",
+    "Remove the old wood infrastructure once the new system is stable.",
+    "Expand the copper furnace stack using the newly cleared land.",
+    "Resume science production and research."
+  ],
+  "youtube": {
+    "raw": "",
+    "edited": ""
+  }
+}

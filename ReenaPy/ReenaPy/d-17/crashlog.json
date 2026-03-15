@@ -1,0 +1,40 @@
+{
+  "id": 18,
+  "location": "Nauvis - New Dawn - Water Processing Sector",
+  "date": "Day 17",
+  "time": "Noon",
+  "summary": [
+    "Today I focused on fixing the water processing sector. I expanded the water filter recycling machines and that finally stabilized the water supply. Because of that, science production is now flowing at a steady rate of roughly 24 SPM.",
+    "That being said, the base still requires occasional manual intervention. I still need to periodically clear excess iron plates and move them into storage, manually resupply wood to the water processing sector, and occasionally clear soot buildup at the ash processing sector.",
+    "Fortunately these maintenance tasks are infrequent enough that the base can mostly run on its own for long periods of time.",
+    "On the technology front I completed several researches today including Kerogen Processing, Assembly, Concrete, Basic Vehicles, Mining Vehicles Mk1, and Vehicle Depot.",
+    "Unfortunately Kerogen Processing did not lead to Tar Processing as I had hoped. In fact it turned out to be a dead end, which means roughly six hundred science packs were spent without providing a direct solution to the stone bottleneck.",
+    "Instead of continuing to guess which research might eventually lead to Tar Processing, I decided to pivot toward technologies that provide immediate benefits.",
+    "Assembly unlocked the Burner Assembling Machine MK01. These machines craft twice as fast as the prototype variant and also support fluid inputs. I replaced all the burner assembling machine prototypes across the base with the MK01 versions.",
+    "I also researched Concrete, although at the moment it does not appear to provide any immediate benefit to the base as they are too expensive to craft.",
+    "After that I shifted toward vehicle technologies, researching Basic Vehicles, Mining Vehicles Mk1, and Vehicle Depot.",
+    "These technologies unlocked the Hauler, Mining Vehicle MK01, and the Vehicle Depot. My main motivation for pursuing these technologies was to help deal with the recurring wood shortages.",
+    "My original plan was to expand wood production inside the base and use haulers to automate transportation. However, I made the mistake of not checking the recipe for the Vehicle Depot beforehand.",
+    "It turns out that the Vehicle Depot requires circuit boards, which I currently cannot manufacture. This means while I can still manually use vehicles to transport items, but full automation of vehicle logistics is not yet possible.",
+    "The Mining Vehicle MK01 was immediately useful though. Using it, I was able to clear large amounts of trees and rocks extremely quickly.",
+    "Within just a few minutes I cleared a large portion of the forest to the east of the base, providing a significant amount of additional wood to support current operations.",
+    "I also cleared another row of chunks to the south of the base to prepare space for future wood production expansion.",
+    "However, this newly claimed land is currently outside the defensive perimeter, so expanding the defenses to cover the new territory will be tomorrow's priority."
+  ],
+  "status": {
+    "power": "Steam engine power grid stable with separated crusher and base grids.",
+    "resource": "Wood supply temporarily stabilized through large-scale deforestation to the east; occasional manual wood resupply still required.",
+    "production": "Water processing stabilized after expanding filter recycling; burner assembling machines upgraded to MK01.",
+    "science": "Science running steadily at ~24 SPM after water bottleneck resolved.",
+    "defense": "Base perimeter stable but southern expansion area remains outside current defenses."
+  },
+  "todo": [
+    "Expand the defensive perimeter to cover newly cleared southern chunks.",
+    "Plan expansion of wood production within the base.",
+    "Investigate technologies that may eventually unlock Tar Processing."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/SOXbgT0nNdw",
+    "edited": ""
+  }
+}
