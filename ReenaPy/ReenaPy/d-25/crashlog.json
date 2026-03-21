@@ -1,0 +1,37 @@
+{
+  "id": 26,
+  "location": "Nauvis - New Dawn - Power Sector",
+  "date": "Day 25",
+  "time": "Noon",
+  "summary": [
+    "Today I was able to complete most of the remaining tar processing chains and finally begin producing stone bricks at a steady rate.",
+    "This significantly improves the base’s stone situation. By combining stone with pitch to create bricks, and then converting bricks back into usable stone, it is a net positive on stone. Which means I can effectively turn pitch into stone.",
+    "The tar processing chain is still not fully complete. Creosote, gasoline, and aromatics are currently being produced without proper downstream usage, and will need to be addressed soon to prevent backups.",
+    "I expect to finish integrating these remaining outputs tomorrow.",
+    "However, all of this new infrastructure came at a cost. The increased demand completely overwhelmed the existing power grid.",
+    "To compensate, I set up a third independent power grid to handle the additional load.",
+    "At the same time, I expanded power production to a total of eight steam engines to increase overall capacity.",
+    "Even with the new grid, the system is not yet properly balanced. Load distribution between the three grids still needs adjustment to prevent localized overloads or inefficiencies.",
+    "Another side effect of the expanded power production is a surge in ash output from the boilers.",
+    "Ash processing is beginning to fall behind again, and I will likely need to expand the number of solid separators to keep up with production.",
+    "On the research front, I completed vehicle technology and now have access to cars.",
+    "This should allow me to resume exploration beyond the base perimeter much more efficiently, especially when searching for new resources or points of interest."
+  ],
+  "status": {
+    "power": "Three separate power grids established; total capacity increased but load balancing still required.",
+    "resource": "Stone supply significantly improved through tar processing and pitch conversion.",
+    "production": "Tar processing mostly complete; remaining byproducts (creosote, gasoline, aromatics) still unmanaged.",
+    "science": "Vehicle technology researched; no other major research completed.",
+    "defense": "Perimeter defenses remain stable with no major breaches reported."
+  },
+  "todo": [
+    "Finish processing chains for creosote, gasoline, and aromatics.",
+    "Balance load across the three power grids.",
+    "Expand ash processing with additional solid separators.",
+    "Stabilize tar processing to prevent fluid backups."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/C4np74cC3fU",
+    "edited": ""
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 27,
+  "location": "Nauvis - New Dawn - Southern Iron Deposit",
+  "date": "Day 26",
+  "time": "Noon",
+  "summary": [
+    "Today ended up being more of a maintenance and cleanup day rather than expansion.",
+    "I removed the old coke production and steel production setups. They were inefficient and no longer aligned with the current infrastructure, so it was time to clear them out and make space for better systems. I did say they were temporary.",
+    "I also set up a small steam storage system. It effectively acts as an accumulator — storing excess steam when demand is low, and allowing steam engines to draw from it when fish turbines dip in output.",
+    "This should help stabilize power during fluctuations without relying entirely on continuous fuel consumption.",
+    "I connected the southern water processing ash output to the main ash processing sector, reducing the need for manual cleanup and consolidating ash handling into a single system.",
+    "At the original water processing sector, I set up a copper-grade filter assembling machine to automate filter production and eliminate the need for manual refilling.",
+    "The power grid was updated again to better accommodate recent expansions, although it is clear that power demand continues to grow faster than supply.",
+    "To keep tar processing running smoothly, I set up temporary storage for aromatics, gasoline, and creosote. This prevents the system from backing up and ensures that pitch production can continue uninterrupted.",
+    "I also expanded slightly to the north to make room for additional fish turbines. Power demand is rising steadily, and more generation capacity will be needed soon.",
+    "On the research front, I completed Stone Walls, Nanobot Speed 1, and Nanobot Range 1.",
+    "Stone is still relatively expensive, but enemy pressure is increasing. I will begin replacing wooden fences with stone walls in areas that are frequently attacked to improve defensive durability."
+  ],
+  "status": {
+    "power": "Power stabilized slightly with steam storage, but overall demand continues to rise; additional generation required.",
+    "resource": "Stone remains tight but improving; excess fluids from tar processing temporarily stored.",
+    "production": "Legacy coke and steel setups removed; ash handling further centralized and automated.",
+    "science": "Stone Wall and nanobot upgrades completed to improve defense and construction efficiency.",
+    "defense": "Beginning gradual transition from wooden fences to stone walls in high-pressure areas."
+  },
+  "todo": [
+    "Expand fish turbine power generation.",
+    "Properly process aromatics, gasoline, and creosote.",
+    "Continue upgrading defenses with stone walls.",
+    "Further stabilize and optimize the power grid.",
+    "Expand ash processing with additional solid separators."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/EhGimkugKLg",
+    "edited": ""
+  }
+}

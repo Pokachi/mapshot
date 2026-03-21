@@ -1,0 +1,35 @@
+{
+  "id": 24,
+  "location": "Nauvis - New Dawn - New Wood Sector",
+  "date": "Day 23",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly another infrastructure day focused on finishing the new forestry sector.",
+    "I managed to bring half of the second column of Fastwood Forestry online. Once the remaining machines are installed and supplied, the entire sector should reach full capacity. If everything goes according to plan, the remaining construction should be finished tomorrow.",
+    "I also set up a temporary concrete assembling machine to produce the concrete required for the upcoming tar processing facilities.",
+    "The setup is not meant to be permanent, but it should generate enough concrete for the construction of the initial tar processing buildings.",
+    "Once the necessary structures are built, I will finally begin implementing tar processing, which should significantly increase the base's stone supply.",
+    "On the research front I mostly focused on quality-of-life technologies today.",
+    "I finished researching Lamps, which will allow me to properly illuminate the base better at night. Working in darkness has been a constant annoyance, and better lighting should also make it easier.",
+    "I also researched improvements to movement speed. The upgrade essentially refines the engineering suit's servo systems, allowing me to move faster while carrying equipment and construction materials.",
+    "Another upgrade improved my construction reach distance. By integrating better remote interface controls into the system, I can now deploy and manipulate structures from farther away without physically standing next to them.",
+    "These upgrades should make base construction and maintenance significantly more efficient moving forward."
+  ],
+  "status": {
+    "power": "Power production remains stable across the dual steam and fish turbine grids.",
+    "resource": "Wood production increasing as the second Fastwood Forestry column approaches completion.",
+    "production": "Temporary concrete production established to support upcoming tar processing construction.",
+    "science": "Quality-of-life upgrades completed including lamps, increased movement speed, and improved construction reach.",
+    "defense": "Perimeter defenses remain stable; upcoming base lighting should improve nighttime visibility."
+  },
+  "todo": [
+    "Finish the remaining Fastwood Forestry machines to bring the wood sector to full capacity.",
+    "Construct the initial tar processing facility.",
+    "Increase stone production using tar processing.",
+    "Expand lighting coverage across the base."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/BAq1NX49fYQ",
+    "edited": ""
+  }
+}

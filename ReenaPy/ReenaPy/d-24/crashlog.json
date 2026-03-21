@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "location": "Nauvis - New Dawn - Tar Processing Sector",
+  "date": "Day 24",
+  "time": "Noon",
+  "summary": [
+    "Today was mostly spent trying to understand and set up tar processing. The system is far more complex than I initially expected, with multiple branching fluid chains that all need to be handled carefully.",
+    "I began by setting up the first stage of tar processing, converting tar and steam into Middle Oil, Creosote, Anthracene Oil, and Pitch.",
+    "From there, I established the next stage of processing by converting Middle Oil and steam into Light Oil, Carbolic Oil, and Naphthalene Oil.",
+    "I connected the Carbolic Oil output to the stone miners, which should begin improving passive stone production.",
+    "However, the rest of the fluid outputs are not yet fully processed or utilized. Each byproduct requires its own handling chain, and the overall system is proving to be quite complicated.",
+    "Managing all these outputs will require additional infrastructure and careful balancing to avoid backups or wasted resources.",
+    "Aside from tar processing, I also completed the remaining modules for the forestry sector.",
+    "With that, the wood production system is now fully operational at full capacity, providing a strong and stable supply of wood for fuel and processing.",
+    "On the research side, I continued focusing on quality-of-life upgrades.",
+    "I completed Basic Inventory Size 1, Basic Crafting Speed 1, and Basic Mining Speed 1.",
+    "These upgrades improve overall efficiency by allowing me to carry more materials, craft faster, and gather resources more quickly when manual intervention is required."
+  ],
+  "status": {
+    "power": "Power grid remains stable with steam engines and fish turbines supporting increased processing demand.",
+    "resource": "Wood production fully stabilized at maximum capacity; carbolic oil now supplementing stone production.",
+    "production": "Initial tar processing chains established but several fluid byproducts still require handling and optimization.",
+    "science": "Multiple quality-of-life upgrades completed to improve inventory, crafting, and mining efficiency.",
+    "defense": "Perimeter defenses remain stable with no major incidents."
+  },
+  "todo": [
+    "Process and utilize remaining tar processing byproducts.",
+    "Balance fluid outputs to prevent system backups.",
+    "Expand stone production using improved carbolic oil supply.",
+    "Optimize tar processing infrastructure for stability and throughput."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/BNhbA5QlxGQ",
+    "edited": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 28,
+  "location": "Nauvis - New Dawn - Tar Processing Sector",
+  "date": "Day 27",
+  "time": "Noon",
+  "summary": [
+    "Today focused on stabilizing power and refining tar processing outputs.",
+    "I expanded the fish turbine array to a total of 54 units. This significantly improves passive power generation, especially during peak output cycles.",
+    "However, fish turbines are still inconsistent, so I will need to expand boilers and steam engines further to compensate when turbine output drops. That will be tomorrow’s task.",
+    "On the defensive side, I replaced two of the most frequently attacked perimeter sections with stone walls.",
+    "A new enemy type — small snappers — has become a concern. While they have less armor than armored biters, they deal significantly more damage and are capable of breaking wall segments during attacks.",
+    "Upgrading high-pressure areas to stone walls should reduce maintenance and improve overall durability.",
+    "On the production side, I set up additional processing to convert creosote and gasoline into aromatics. This helps relieve the creosote bottleneck and keeps tar processing flowing.",
+    "Despite that, gasoline and aromatics are still being overproduced.",
+    "Gasoline is actually a decent fuel source at 1.2 MJ per unit — far better than coal gas — while aromatics provide 350 kJ and can also be used as a mining fluid.",
+    "For now, I am storing excess aromatics and routing gasoline into glassworks to burn it off and prevent system backups.",
+    "On the research front, I continued focusing on quality-of-life upgrades.",
+    "I completed Basic Inventory Size 2, Basic Movement Speed 2, and Basic Reach Distance 2.",
+    "These upgrades further improve efficiency in construction, logistics, and general movement around the base."
+  ],
+  "status": {
+    "power": "Fish turbines expanded to 54 units; power improved but still requires steam backup expansion.",
+    "resource": "Excess gasoline and aromatics accumulating; partial reuse implemented.",
+    "production": "Tar processing stabilized further with creosote conversion; still overproducing some byproducts.",
+    "science": "Additional quality-of-life upgrades completed for inventory, movement, and reach.",
+    "defense": "Stone walls deployed in high-pressure zones; small snappers emerging as a new threat."
+  },
+  "todo": [
+    "Expand boiler and steam engine capacity for power backup.",
+    "Find better uses or sinks for excess gasoline and aromatics.",
+    "Continue upgrading perimeter defenses with stone walls.",
+    "Further stabilize tar processing output chains."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/RmHpMTNtgu0",
+    "edited": ""
+  }
+}
