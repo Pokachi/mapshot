@@ -284,9 +284,12 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 		},
 		onSelect: function (newDay:any) {
 			//console.log(newDay)
+			if (!saveName) {
+			  console.log("saveName invalid");
+			}
 			let result = window.location.href.replace(/d-\d+/, newDay);
 			result = result.replace(new RegExp(`l=${saveName}`), "path=/data/" + saveName + "/" + newDay + "/");
-			window.location.href = result.replace(new RegExp(`l=${encodeURI(saveName)}`), "path=/data/" + saveName + "/" + newDay + "/");
+			window.location.href = result.replace(new RegExp(`l=${encodeURIComponent(saveName)}`), "path=/data/" + saveName + "/" + newDay + "/");
 		},
 		})
 		
