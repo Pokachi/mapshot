@@ -286,6 +286,7 @@ async function run(config: common.MapshotConfig, info: common.MapshotJSON, crash
 			//console.log(newDay)
 			let result = window.location.href.replace(/d-\d+/, newDay);
 			window.location.href = result.replace(new RegExp(`l=${saveName}`), "path=/data/" + saveName + "/" + newDay + "/");
+			window.location.href = result.replace(new RegExp(`l=${escapeHtml(saveName)}`), "path=/data/" + saveName + "/" + newDay + "/");
 		},
 		})
 		

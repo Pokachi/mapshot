@@ -1,0 +1,40 @@
+{
+  "id": 29,
+  "location": "Nauvis - New Dawn - Ash Processing Sector",
+  "date": "Day 28",
+  "time": "Noon",
+  "summary": [
+    "Today ended up being mostly a maintenance and rebalancing day across multiple systems.",
+    "I disconnected coal gas from the glassworks and replaced it with gasoline as the fuel source. This makes better use of excess gasoline while freeing up coal gas for more important uses.",
+    "I then designed a generic fluid mining blueprint and set up six fluid miners at the aluminum deposit.",
+    "Coal gas is now fully redirected into fluid mining operations, making aluminum production its primary purpose.",
+    "I also experimented with rerouting ash logistics by redirecting ash from iron and copper production into the science sector.",
+    "However, this appears to have been overdone, and I will need to disconnect the iron ash belt and reroute it back to the ash processing sector to maintain balance.",
+    "At the starter iron deposit, I removed the remaining transport belts since steel production is no longer active.",
+    "At the moment, I have no real use for that deposit, so I am simply storing the mined ore in boxes. When needed, I will manually transfer it to crushers.",
+    "Interestingly, I noticed that coal consumption is lower than expected. With multiple systems shifting away from raw coal usage, I may need to rethink how fuel is distributed and utilized.",
+    "On the defensive side, another nuclear biter detonated near the walls. The damage was contained and quickly repaired, but the threat remains significant.",
+    "I also discovered that turret targeting priorities can be configured. This is a major advantage.",
+    "I will update my defensive blueprints to prioritize nuclear and suicide-type biters first, as they pose the greatest risk to infrastructure.",
+    "On the research front, I focused primarily on additional chunk expansion.",
+    "I need more space to properly expand ash processing. It is still unclear whether ash is truly under control, as the base frequently experiences bottlenecks and is not running at full capacity consistently.",
+    "Regardless, expanding processing capacity now should prevent future issues once the base stabilizes."
+  ],
+  "status": {
+    "power": "Power remains stable with current infrastructure.",
+    "resource": "Proper aluminum mining established via fluid mining.",
+    "production": "Ash logistics partially reworked; Aluminum plate production increased.",
+    "science": "Focused on additional chunk research to support future expansion.",
+    "defense": "Turret priority targeting discovered; nuclear biter remains a high-threat target."
+  },
+  "todo": [
+    "Reroute iron ash back to ash processing sector.",
+    "Update turret blueprints with priority targeting.",
+    "Expand ash processing infrastructure.",
+    "Reevaluate fuel distribution."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/ti2cJNSV9Ig",
+    "edited": ""
+  }
+}
