@@ -1,0 +1,33 @@
+{
+  "id": 36,
+  "location": "Nauvis - New Dawn - Steel Production Sector",
+  "date": "Day 35",
+  "time": "Noon",
+  "summary": [
+    "Today marked the beginning of a more permanent restructuring effort. I relocated steel production to a newly designated sector, moving it away from the constraints of the original layout. The new area should allow for proper scaling without constantly fighting for space.",
+    "The transition isn’t fully complete yet, but the foundation is in place. This setup is intended to support long-term growth, not just immediate demand.",
+    "Alongside steel, I began establishing a dedicated concrete production line. Like everything else recently, it’s only partially complete. The framework is there, but it still needs refinement before it can operate at full capacity.",
+    "The freed space from the exhausted starter iron patch is already proving useful. Logistics routing is becoming more flexible, and I have more room to plan without compromising existing systems.",
+    "Research continues to reinforce efficiency. Today I completed Basic Movement Speed 4 and Basic Mining Speed 4. Small upgrades individually, but together they reduce the time cost of every action I take across the factory.",
+	"Unfortuantely, today we suffered a biter breach. A single fire spitter made it through the defense and set my Aromatic storage tanks on fire. This caused my Aromatic to be set on fire and causing an explosion, the explosion caused a chain reaction causing all my tanks to explode.",
+	"Lesson learned, don't put your fuel storage so close to the perimeter."
+  ],
+  "status": {
+    "resource": "Steel production relocated to new sector; concrete production partially established; improved space utilization from depleted iron patch.",
+    "power": "Stable; no major disruptions during sector transition.",
+    "production": "Steel transitioning to permanent setup; concrete line under construction; logistics flexibility improved.",
+    "science": "Basic Movement Speed 4 and Basic Mining Speed 4 completed.",
+    "defense": "Biter breach south of Tar Processing set Aromatic storage tanks on fire, causing a chain explosion."
+  },
+  "todo": [
+    "Complete steel production transition and optimize throughput.",
+    "Finish concrete production setup.",
+    "Refine logistics routing in newly available space.",
+    "Prepare for integration of acetylene production.",
+    "Monitor resource flow to prevent new bottlenecks."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/X9BuoLE89uE",
+    "edited": ""
+  }
+}

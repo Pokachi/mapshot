@@ -1,0 +1,32 @@
+{
+  "id": 33,
+  "location": "Nauvis - New Dawn - Northern Coal Deposit",
+  "date": "Day 32",
+  "time": "Noon",
+  "summary": [
+    "Today was another push toward stabilization, though the system continues to resist equilibrium. I began by setting up a zinc ore buffer to keep the miners running and help drain excess aromatics. It works in part, but not enough — aromatics production still exceeds what I can meaningfully consume.",
+    "Power issues forced my hand again. I established a fourth power grid and fully separated the wood production sector from tar processing. The difference is immediate — isolating the load has reduced the risk of power pole failures, though the overall system is still operating close to its limits.",
+    "Copper expansion is underway. A third furnace stack is now operational, and mining output has increased to support it. However, this exposed a deeper issue: coal supply. The entire factory is beginning to outpace its fuel source.",
+    "Fortunately, I located a large coal deposit to the north — approximately 58 million units of raw raw. It should sustain operations long-term, but claiming it has proven difficult. Biter activity in the region is constant and aggressive, turning every expansion effort into a prolonged engagement.",
+    "Ammunition consumption has quietly overtaken production. Defensive systems are holding, but only barely. I’ve added a second ammo assembly line to compensate, though I’ll need to monitor this closely if attacks continue at this rate.",
+    "I managed to secure most of the territory surrounding the new coal patch and established perimeter defenses. One section of wall remains unfinished, and the ground is still unpaved. It’s functional, but incomplete — I’ll finalize it tomorrow.",
+    "Research continues to provide incremental advantages. Today I completed Basic Mining Speed 3 and Basic Crafting Speed 3. Small improvements, but they translate directly into survival margins out here."
+  ],
+  "status": {
+    "resource": "Aromatics still overproduced; zinc buffering active but insufficient; coal supply becoming critical bottleneck.",
+    "power": "Improved stability with fourth grid; sectors partially isolated to prevent overloads.",
+    "production": "Copper production expanded with third furnace stack; ammo production increased but under pressure.",
+    "science": "Basic Mining Speed 3 and Basic Crafting Speed 3 completed.",
+    "defense": "Perimeter expanded to northern coal deposit; frequent biter attacks; ammo strain increasing; minor wall section incomplete."
+  },
+  "todo": [
+    "Complete remaining wall section at northern coal outpost.",
+    "Pave ground and finalize defensive layout at coal deposit.",
+    "Expand coal extraction and integrate into main supply lines.",
+    "Increase ammo production further if consumption continues to rise."
+  ],
+  "youtube": {
+    "raw": "",
+    "edited": ""
+  }
+}

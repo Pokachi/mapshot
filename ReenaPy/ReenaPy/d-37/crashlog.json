@@ -1,0 +1,28 @@
+{
+  "id": 38,
+  "location": "Nauvis - New Dawn",
+  "date": "Day 37",
+  "time": "Noon",
+  "summary": [
+    "Today brought several production chains closer to completion. I finished setting up the lead plate furnace stack along with tin mining and smelting. The core materials for solder are now fully established — only the final production step remains.",
+    "To address the growing issue of byproducts, I implemented slaked lime evaporation. This converts the excess into lime and gravel, both of which are now fed directly into existing belts with priority.",
+    "I also made several optimizations across the base. Instead of converting all creosote into aromatics, I shifted production toward treated wood, only allowing overflow creosote to be processed further. This reduces unnecessary strain while making better use of available materials.",
+    "Fuel management required further adjustment. With the starter coal supply continuing to decline, I connected kerogen output from stone mining into steam production. It’s not a permanent solution, but it should help stabilize steam production in the short term.",
+    "The factory is beginning to feel more balanced — not because demand has decreased, but because waste is being redirected and systems are being tuned instead of expanded blindly. The next step is clear: bring solder production fully online.",
+	"Research saw solid progress today. I completed Basic Inventory Size 5, Basic Movement Speed 5, and Evaporation Processing 1 — the latter being critical for handling slaked lime and stabilizing the acetylene chain."
+  ],
+  "status": {
+    "resource": "Tin extraction established.",
+    "power": "Stable; fuel diversification helping maintain consistent steam production.",
+    "production": "All inputs ready for solder; treated wood prioritized over aromatics; byproduct handling stabilized.",
+    "science": "Basic Inventory Size 5, Basic Movement Speed 5, and Evaporation Processing 1 completed.",
+    "defense": "No significant incidents; base holding steady during internal restructuring."
+  },
+  "todo": [
+    "Set up solder production."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/bZX4RaiYXM0",
+    "edited": ""
+  }
+}

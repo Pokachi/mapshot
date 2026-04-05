@@ -1,0 +1,35 @@
+{
+  "id": 37,
+  "location": "Nauvis - New Dawn - Lead Deposit",
+  "date": "Day 36",
+  "time": "Noon",
+  "summary": [
+    "Today I finished reestablishing the concrete production setup, and that's all the old infrastructure that I've taken down rebuilt to be more permanent.",
+    "Power management required another escalation. I established a fifth power grid, further isolating major sectors to prevent overload cascades. The system is becoming increasingly segmented, but it’s the only way to maintain stability at this scale.",
+	"The new power sector will be using to power Acetylene production and whatever else I work on next.",
+    "Acetylene production is now operational. After several days of preparation and expansion, the full chain is finally in place. However, it immediately introduced a new problem — slaked lime byproduct. I don’t yet have a proper way to handle or utilize it, and it’s beginning to accumulate.",
+    "I’ve begun setting up lead production at a new deposit to consume the Acetylene as mining fluid. The groundwork is complete, and it should be fully operational by tomorrow. This is a critical step toward solder manufacturing.",
+    "I also doubled the steam production at the new water processing sector. This will feed directly into tin extracting that I will setup tomorrow, ensuring both components for solder can be sustained.",
+    "Alongside expansion, I spent time on cleanup and base maintenance. I removed the old stone storage from the depleted starter deposit and cleared out soot storage from the original ash processing sector. In parallel, I expanded kerogen and stone storage at the new mining site to better match current throughput.",
+    "If everything holds, solder production should come online next. It’s another step toward deeper industrial capability — and likely another layer of logistical strain.",
+    "Research was minimal today. I completed Basic Reach 4, extending operational range slightly. Not a major breakthrough, but every incremental improvement continues to reduce friction in daily operations."
+  ],
+  "status": {
+    "resource": "Lead extraction in progress.",
+    "power": "More stable with fifth grid established; sector isolation reducing overload risks.",
+    "production": "Concrete fully operational; acetylene online with unmanaged byproduct; kerogen and stone storage expanded.",
+    "science": "Basic Reach 4 completed.",
+    "defense": "No major incidents reported; perimeter stable during infrastructure expansion."
+  },
+  "todo": [
+    "Complete lead production setup.",
+    "Establish tin processing and integrate with steam supply.",
+    "Bring solder production online.",
+    "Develop solution for slaked lime byproduct.",
+    "Continue base cleanup and optimize storage layouts."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/3c0qvv5JVVA",
+    "edited": ""
+  }
+}

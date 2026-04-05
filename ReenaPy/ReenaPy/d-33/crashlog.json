@@ -1,0 +1,30 @@
+{
+  "id": 34,
+  "location": "Nauvis - New Dawn - Power Sector",
+  "date": "Day 33",
+  "time": "Noon",
+  "summary": [
+    "Today was focused almost entirely on bringing the northern coal operation fully online. I completed the defensive perimeter and established enough miners to sustain two full belts of raw coal. Perhaps with the additional fuel supply, it might finally stabilize.",
+    "A new stack of boilers is also now operational, fed directly by one of the new coal belt. The second new belt has been routed into the main fuel line, supporting copper smelting and science production.",
+    "Ash handling continues to evolve. I set up a dedicated ash output belt to tie into the new centralized processing sector. The design is sound, but implementation was slowed significantly by a lack of materials.",
+    "Copper shortages continue to ripple through everything. The mall stalled due to lack of supply, leaving me without automated belt production. I spent most of the day manually crafting belts just to keep expansion moving. It’s inefficient, but there was no alternative.",
+    "With coal now feeding both power and production reliably, I expect overall output to increase across the board. Whether the rest of the factory can keep up is another question.",
+    "Research continues, even if its immediate value isn’t obvious. I completed solder and ceramic processing today. I don’t have a direct use for either yet, but discussion with fellow engineers over telecommunication indicate solder will become critical. I’ll begin preparing infrastructure for tin and lead plate production to support solder production."
+  ],
+  "status": {
+    "resource": "Coal supply significantly improved with northern deposit online.",
+    "power": "New boiler stack operational and supplied by dedicated coal line.",
+    "production": "Fuel distribution improved; mall stalled due to copper shortage; manual crafting compensating for automation gaps.",
+    "science": "Solder and ceramic research completed; preparing for future material requirements.",
+    "defense": "Northern coal outpost secured with full perimeter defenses."
+  },
+  "todo": [
+    "Scale up copper production to restore mall functionality.",
+    "Set up tin and lead plate production for solder manufacturing.",
+    "Monitor coal throughput and ensure consistent supply to all sectors."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/cpxwWnF70Mk",
+    "edited": ""
+  }
+}

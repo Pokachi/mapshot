@@ -1,0 +1,31 @@
+{
+  "id": 32,
+  "location": "Nauvis - New Dawn - Zinc Deposit",
+  "date": "Day 31",
+  "time": "Noon",
+  "summary": [
+    "I wanted today to be a step forward, but it turned into another cycle of maintenance and correction. I started by fully dismantling the old ash processing sector and rerouting every ash belt into the new facility. It’s cleaner now, more centralized, but the amount of material moving through the system makes every small mistake costly.",
+    "I attempted to make use of the excess aromatics by setting up zinc mining. On paper, it made sense — burn off a byproduct while gaining new materials. In reality, I hit another wall. I can mine zinc, but I can’t process it yet. Another chain locked behind research. Another reminder that progress here is never linear.",
+    "Power instability resurfaced again. The electrical poles overloaded and exploded twice today. The grid is stretched too thin, trying to support wood production, tar processing, and everything in between. It’s clear now that a fourth power grid is no longer optional. I’ll need to isolate major sectors before this cascades into something worse.",
+    "Iron production continues to exceed demand. Even after expanding storage, the buffers are filling up again. I’ve resorted to manually relocating excess plates just to keep crushers running and prevent stone production from stalling. It’s inefficient, but necessary for now.",
+    "A meteorite struck directly into the copper mining operation today, tearing through belts and machines. Not long after, a nuclear biter detonated against the perimeter. Even with target prioritization, the blast still breached a section of wall. Repairs are becoming routine, but each incident chips away at stability.",
+    "To make matters worse, I’ve identified copper as the next bottleneck. Consumption has quietly overtaken production. I’ll need to establish a third furnace stack and expand mining operations further north to keep up with demand.",
+    "Despite the setbacks, research did continue. I completed Sap - Stage 1 along with another round of personal upgrades — increased inventory capacity, faster movement, and extended reach. Small advantages, but they add up. Out here, efficiency is survival."
+  ],
+  "status": {
+    "resource": "Iron surplus with expanding storage pressure; copper supply falling behind demand; ash fully redirected to new processing sector.",
+    "power": "Unstable; repeated overloads causing pole failures; fourth power grid required to stabilize sectors.",
+    "production": "Ash processing centralized; zinc mining established but unusable; copper production insufficient; iron overproduction ongoing.",
+    "science": "Progressing steadily with multiple upgrades completed.",
+    "defense": "Perimeter holding but strained; meteor strike and nuclear biter caused localized damage requiring repairs."
+  },
+  "todo": [
+    "Establish fourth power grid to separate major sectors.",
+    "Expand copper mining and build third furnace stack.",
+    "Continue reinforcing defenses against explosive threats."
+  ],
+  "youtube": {
+    "raw": "https://youtu.be/EDCg6gMPX8c",
+    "edited": ""
+  }
+}
